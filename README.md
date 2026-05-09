@@ -1,5 +1,7 @@
 # Comparison of Elastic Constants and Surface Energies of β-Sn
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Companion data and code repository for:
 
 > H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
