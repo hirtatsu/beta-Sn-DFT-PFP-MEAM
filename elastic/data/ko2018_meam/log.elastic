@@ -1,0 +1,1208 @@
+LAMMPS (22 Jul 2025 - Update 4)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 5.8589 5.8589 3.2059
+Created triclinic box = (0 0 0) to (5.8589 5.8589 3.2059) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+Created 4 atoms
+  using lattice units in triclinic box = (0 0 0) to (5.8589 5.8589 3.2059) with tilt (0 0 0)
+  create_atoms CPU = 0.000 seconds
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 0
+WARNING: Energy due to 3 extra global DOFs will be included in minimizer energies
+ (src/min.cpp:222)
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         0   0             -12.4078       -2.5322678     -3.3733963     -3.3733963     -0.8500107      3.5818613e-14 -3.4662252e-13 -4.2705991e-13  5.8589         5.8589         3.2059         110.048      
+         1   0             -12.4078        0.32181345    -0.16504377    -0.16504377     1.2955279      1.0925251e-13 -1.0074454e-12 -9.6665635e-12  5.8588871      5.8588871      3.2058982      110.04745    
+         2   0             -12.4078       -0.0019682388  -0.001845031   -0.0018450315  -0.002214654   -9.2921708e-14  4.9114194e-13  1.6089901e-12  5.8588834      5.8588834      3.2059042      110.04752    
+         3   0             -12.4078       -0.00022635609  0.00011354835  0.00011354817 -0.00090616479  8.8207067e-14 -3.1178155e-12 -2.852391e-12   5.8588834      5.8588834      3.2059042      110.04752    
+         4   0             -12.4078        0.00025997198  0.00034653477  0.00034653503  8.6846147e-05 -4.8473474e-14 -1.2228172e-12  3.0744799e-12  5.8588834      5.8588834      3.2059042      110.04752    
+         5   0             -12.4078       -2.9291385e-10 -1.0971038e-10 -1.0147329e-10 -6.6755786e-10 -1.1026951e-14  4.162919e-12  -2.148346e-12   5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.000650356 on 1 procs for 5 steps with 4 atoms
+
+35.8% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+     -12.4077998203725  -12.4077998209898  -12.4077998209898
+  Force two-norm initial, final = 0.0003328438 4.6988164e-14
+  Force max component initial, final = 0.000231707 4.5851996e-14
+  Final line search alpha, max atom move = 1 4.5851996e-14
+  Iterations, force evaluations = 5 10
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.00052507 | 0.00052507 | 0.00052507 |   0.0 | 80.74
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.4134e-05 | 1.4134e-05 | 1.4134e-05 |   0.0 |  2.17
+Output  | 5.0132e-05 | 5.0132e-05 | 5.0132e-05 |   0.0 |  7.71
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 6.102e-05  |            |       |  9.38
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+Displacing atoms ...
+System init for write_restart ...
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8583058 5.8588917 3.2059021) with tilt (0 0 0)
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8583058 5.8588917 3.2059021) with tilt (0 0 0)
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8583058 5.8588917 3.2059021) with tilt (0 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.407799      57.809012      119.89584      16.601179      36.930018     -9.0143838e-07  0.15160206    -0.31521286     5.8582975      5.8588834      3.2059042      110.03651    
+         6   0             -12.4078        57.803418      90.156922      46.318351      36.934981     -6.8894768e-06 -0.14651953     0.30306772     5.8582975      5.8588834      3.2059042      110.03651    
+         7   0             -12.4078        57.803367      89.788388      46.686685      36.935027      1.8706789e-07 -0.0220708      0.045920582    5.8582975      5.8588834      3.2059042      110.03651    
+         8   0             -12.4078        57.803366      89.780786      46.694284      36.935028     -4.8806611e-08  0.0056923388  -0.011757909    5.8582975      5.8588834      3.2059042      110.03651    
+         9   0             -12.4078        57.803366      89.787207      46.687864      36.935027      8.7368912e-10 -0.000136796    0.00011678248  5.8582975      5.8588834      3.2059042      110.03651    
+        10   0             -12.4078        57.803366      89.787501      46.68757       36.935027     -1.9179768e-09  0.00019979148  0.00028134117  5.8582975      5.8588834      3.2059042      110.03651    
+        11   0             -12.4078        57.803367      89.7866        46.688472      36.935028      9.6794635e-09 -0.00084861167 -0.0011934298   5.8582975      5.8588834      3.2059042      110.03651    
+        12   0             -12.4078        57.803367      89.786684      46.688388      36.935028     -1.3779839e-08  0.00077446261  0.0010853455   5.8582975      5.8588834      3.2059042      110.03651    
+        13   0             -12.4078        57.803368      89.787717      46.687358      36.935028     -7.8091279e-09  0.0032759591   0.0046073152   5.8582975      5.8588834      3.2059042      110.03651    
+        14   0             -12.4078        57.803368      89.787925      46.687149      36.935028      1.9431622e-10  0.0011352574   0.0016031495   5.8582975      5.8588834      3.2059042      110.03651    
+        15   0             -12.4078        57.803368      89.787289      46.687785      36.935029      7.8307757e-11 -0.00090142529 -0.0012691774   5.8582975      5.8588834      3.2059042      110.03651    
+        16   0             -12.4078        57.803368      89.78689       46.688184      36.935029     -3.6471464e-12  2.6514856e-05  3.2787994e-05  5.8582975      5.8588834      3.2059042      110.03651    
+        17   0             -12.4078        57.803368      89.787001      46.688073      36.935029      1.9710185e-14  4.864428e-06   6.0419882e-06  5.8582975      5.8588834      3.2059042      110.03651    
+        18   0             -12.4078        57.803368      89.787223      46.687852      36.935029     -4.0342352e-14 -9.2806703e-06 -1.1503737e-05  5.8582975      5.8588834      3.2059042      110.03651    
+        19   0             -12.4078        57.803368      89.787267      46.687807      36.935029      2.2988423e-14  1.8306128e-05  2.2633728e-05  5.8582975      5.8588834      3.2059042      110.03651    
+        20   0             -12.4078        57.803368      89.787267      46.687807      36.935029      2.2988423e-14  1.8306128e-05  2.2633728e-05  5.8582975      5.8588834      3.2059042      110.03651    
+Loop time of 0.00146787 on 1 procs for 15 steps with 4 atoms
+
+82.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077994086865  -12.4077995126752  -12.4077995126752
+  Force two-norm initial, final = 0.0007425782 5.8208467e-09
+  Force max component initial, final = 0.00037790019 2.9681595e-09
+  Final line search alpha, max atom move = 0.5 1.4840797e-09
+  Iterations, force evaluations = 15 28
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0012538  | 0.0012538  | 0.0012538  |   0.0 | 85.42
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.5974e-05 | 3.5974e-05 | 3.5974e-05 |   0.0 |  2.45
+Output  | 0.00014898 | 0.00014898 | 0.00014898 |   0.0 | 10.15
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.91e-05   |            |       |  1.98
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8594776 5.8588917 3.2059021) with tilt (0 0 0)
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8594776 5.8588917 3.2059021) with tilt (0 0 0)
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8594776 5.8588917 3.2059021) with tilt (0 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.407799     -57.74749      -119.72063     -16.621769     -36.900072     -9.0164341e-07  0.15082497    -0.31496533     5.8594693      5.8588834      3.2059042      110.05852    
+         6   0             -12.4078       -57.753074     -90.081851     -46.282251     -36.895119     -6.8560972e-06 -0.14486605     0.3041136      5.8594693      5.8588834      3.2059042      110.05852    
+         7   0             -12.4078       -57.753125     -89.713351     -46.650952     -36.895073      1.8526481e-07 -0.021957455    0.045815801    5.8594693      5.8588834      3.2059042      110.05852    
+         8   0             -12.4078       -57.753126     -89.706158     -46.658149     -36.895072     -4.8230953e-08  0.0056172971  -0.01180865     5.8594693      5.8588834      3.2059042      110.05852    
+         9   0             -12.4078       -57.753126     -89.713153     -46.651153     -36.895073      2.7910344e-11 -6.7696563e-06  0.00018215927  5.8594693      5.8588834      3.2059042      110.05852    
+        10   0             -12.4078       -57.753126     -89.712729     -46.651576     -36.895073      2.2305446e-09 -0.00034465682  2.3911739e-05  5.8594693      5.8588834      3.2059042      110.05852    
+        11   0             -12.4078       -57.753125     -89.712956     -46.651348     -36.895072     -1.108804e-08   0.0014591189  -0.00010126412  5.8594693      5.8588834      3.2059042      110.05852    
+        12   0             -12.4078       -57.753125     -89.712931     -46.651373     -36.895072      1.5923677e-08 -0.0013421548   9.3426778e-05  5.8594693      5.8588834      3.2059042      110.05852    
+        13   0             -12.4078       -57.753124     -89.712661     -46.651641     -36.895072      1.0108935e-08 -0.005688197    0.0003946596   5.8594693      5.8588834      3.2059042      110.05852    
+        14   0             -12.4078       -57.753124     -89.71261      -46.651692     -36.895072     -6.9921526e-11 -0.0019823872   0.00013698494  5.8594693      5.8588834      3.2059042      110.05852    
+        15   0             -12.4078       -57.753124     -89.712776     -46.651526     -36.895072     -9.5302174e-12  0.0014879747  -0.00010313523  5.8594693      5.8588834      3.2059042      110.05852    
+        16   0             -12.4078       -57.753124     -89.712886     -46.651415     -36.895072      1.2178254e-12 -4.2986275e-05  3.3693211e-06  5.8594693      5.8588834      3.2059042      110.05852    
+        17   0             -12.4078       -57.753124     -89.712857     -46.651445     -36.895072     -7.7673125e-14 -8.3739476e-06  6.5363934e-07  5.8594693      5.8588834      3.2059042      110.05852    
+        18   0             -12.4078       -57.753124     -89.712769     -46.651533     -36.895072      4.633743e-14   2.6301376e-05 -2.0561111e-06  5.8594693      5.8588834      3.2059042      110.05852    
+        19   0             -12.4078       -57.753124     -89.71272      -46.651581     -36.895072      9.0763204e-15 -1.415426e-05   1.1149234e-06  5.8594693      5.8588834      3.2059042      110.05852    
+        20   0             -12.4078       -57.753124     -89.71272      -46.651581     -36.895072      9.0763204e-15 -1.415426e-05   1.1149234e-06  5.8594693      5.8588834      3.2059042      110.05852    
+Loop time of 0.00144391 on 1 procs for 15 steps with 4 atoms
+
+100.1% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077994092087  -12.4077995128454  -12.4077995128454
+  Force two-norm initial, final = 0.00074088567 4.943384e-09
+  Force max component initial, final = 0.00037703585 2.7478874e-09
+  Final line search alpha, max atom move = 0.5 1.3739437e-09
+  Iterations, force evaluations = 15 28
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0012126  | 0.0012126  | 0.0012126  |   0.0 | 83.98
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 5.3408e-05 | 5.3408e-05 | 5.3408e-05 |   0.0 |  3.70
+Output  | 0.00014942 | 0.00014942 | 0.00014942 |   0.0 | 10.35
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.846e-05  |            |       |  1.97
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8583058 3.2059021) with tilt (0 0 0)
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8583058 3.2059021) with tilt (0 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.407799      57.809002      16.627483      119.8695       36.930021     -9.0334653e-07  0.15127282    -0.3158989      5.8588834      5.8582975      3.2059042      110.03651    
+         6   0             -12.4078        57.803418      46.317803      90.157471      36.934981     -6.8851816e-06 -0.14543217     0.3052982      5.8588834      5.8582975      3.2059042      110.03651    
+         7   0             -12.4078        57.803367      46.687364      89.787709      36.935027      1.8604593e-07 -0.022043479    0.045995026    5.8588834      5.8582975      3.2059042      110.03651    
+         8   0             -12.4078        57.803366      46.694577      89.780493      36.935028     -4.8325187e-08  0.0056248289  -0.01182448     5.8588834      5.8582975      3.2059042      110.03651    
+         9   0             -12.4078        57.803366      46.687576      89.787494      36.935027      2.0577872e-11 -5.4082058e-06  0.00017970399  5.8588834      5.8582975      3.2059042      110.03651    
+        10   0             -12.4078        57.803366      46.688002      89.787069      36.935028      2.2397043e-09 -0.0003450259   2.1364575e-05  5.8588834      5.8582975      3.2059042      110.03651    
+        11   0             -12.4078        57.803367      46.687763      89.787309      36.935028     -1.1165571e-08  0.0014636874  -9.0654349e-05  5.8588834      5.8582975      3.2059042      110.03651    
+        12   0             -12.4078        57.803367      46.687787      89.787286      36.935028      1.5987022e-08 -0.0013342846   8.2888169e-05  5.8588834      5.8582975      3.2059042      110.03651    
+        13   0             -12.4078        57.803368      46.688063      89.787012      36.935029      1.0108706e-08 -0.0056594462   0.00035042358  5.8588834      5.8582975      3.2059042      110.03651    
+        14   0             -12.4078        57.803368      46.688118      89.786957      36.935029     -6.9680473e-11 -0.0019698796   0.00012147717  5.8588834      5.8582975      3.2059042      110.03651    
+        15   0             -12.4078        57.803368      46.687948      89.787126      36.935029     -8.8905317e-12  0.0015393088  -9.5210462e-05  5.8588834      5.8582975      3.2059042      110.03651    
+        16   0             -12.4078        57.803368      46.68784       89.787234      36.935029      1.2486727e-12 -4.203788e-05   2.9465483e-06  5.8588834      5.8582975      3.2059042      110.03651    
+        17   0             -12.4078        57.803368      46.68787       89.787205      36.935029     -4.000792e-15  -8.1898157e-06  5.7167173e-07  5.8588834      5.8582975      3.2059042      110.03651    
+        18   0             -12.4078        57.803368      46.687964      89.787111      36.935029      1.8698705e-14  2.796755e-05  -1.9551217e-06  5.8588834      5.8582975      3.2059042      110.03651    
+        19   0             -12.4078        57.803368      46.688018      89.787057      36.935029     -8.8771403e-15 -1.5518265e-05  1.0930383e-06  5.8588834      5.8582975      3.2059042      110.03651    
+        20   0             -12.4078        57.803368      46.687826      89.787249      36.935029     -4.8976164e-15 -1.730409e-06   9.3147991e-08  5.8588834      5.8582975      3.2059042      110.03651    
+        21   0             -12.4078        57.803368      46.687947      89.787127      36.935029      2.1658722e-13  6.5111327e-06 -3.925859e-07   5.8588834      5.8582975      3.2059042      110.03651    
+        22   0             -12.4078        57.803368      46.687941      89.787133      36.935029     -2.7259511e-14 -1.7474677e-06  1.076913e-07   5.8588834      5.8582975      3.2059042      110.03651    
+        23   0             -12.4078        57.803368      46.687881      89.787193      36.935029      4.8441202e-14 -5.3193143e-06  3.1678738e-07  5.8588834      5.8582975      3.2059042      110.03651    
+        24   0             -12.4078        57.803368      46.687874      89.7872        36.935029     -2.8619445e-14  7.4364264e-06 -4.4715137e-07  5.8588834      5.8582975      3.2059042      110.03651    
+        25   0             -12.4078        57.803368      46.687923      89.787152      36.935029     -7.4601771e-14  8.8426137e-07 -4.8299559e-08  5.8588834      5.8582975      3.2059042      110.03651    
+        26   0             -12.4078        57.803368      46.68792       89.787154      36.935029      1.7839809e-13 -2.2124065e-06  1.2785514e-07  5.8588834      5.8582975      3.2059042      110.03651    
+        27   0             -12.4078        57.803368      46.687911      89.787164      36.935029     -1.0726345e-14 -7.2451418e-07  3.900858e-08   5.8588834      5.8582975      3.2059042      110.03651    
+        28   0             -12.4078        57.803368      46.687913      89.787162      36.935029     -3.2941581e-14  1.0087828e-06 -5.5123785e-08  5.8588834      5.8582975      3.2059042      110.03651    
+        29   0             -12.4078        57.803368      46.687913      89.787161      36.935029     -4.9545579e-14 -3.7297562e-07  2.0439396e-08  5.8588834      5.8582975      3.2059042      110.03651    
+        30   0             -12.4078        57.803368      46.687913      89.787161      36.935029     -4.9545579e-14 -3.7297562e-07  2.0439396e-08  5.8588834      5.8582975      3.2059042      110.03651    
+Loop time of 0.00237335 on 1 procs for 25 steps with 4 atoms
+
+100.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077994088673  -12.4077995126752  -12.4077995126752
+  Force two-norm initial, final = 0.00074194044 1.0894424e-10
+  Force max component initial, final = 0.00037757012 6.4287047e-11
+  Final line search alpha, max atom move = 0.5 3.2143523e-11
+  Iterations, force evaluations = 25 47
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0020251  | 0.0020251  | 0.0020251  |   0.0 | 85.33
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 5.8538e-05 | 5.8538e-05 | 5.8538e-05 |   0.0 |  2.47
+Output  | 0.00024171 | 0.00024171 | 0.00024171 |   0.0 | 10.18
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 4.799e-05  |            |       |  2.02
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8594776 3.2059021) with tilt (0 0 0)
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8594776 3.2059021) with tilt (0 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.407799     -57.747479     -16.59547      -119.74689     -36.900075     -8.9973686e-07  0.15115403    -0.31427967     5.8588834      5.8594693      3.2059042      110.05852    
+         6   0             -12.4078       -57.753074     -46.2828       -90.081302     -36.895119     -6.8603815e-06 -0.14595102     0.30188801     5.8588834      5.8594693      3.2059042      110.05852    
+         7   0             -12.4078       -57.753125     -46.650275     -89.714028     -36.895073      1.8628338e-07 -0.021984806    0.045741388    5.8588834      5.8594693      3.2059042      110.05852    
+         8   0             -12.4078       -57.753126     -46.657857     -89.706449     -36.895072     -4.8711148e-08  0.0056846953  -0.011742113    5.8588834      5.8594693      3.2059042      110.05852    
+         9   0             -12.4078       -57.753126     -46.65144      -89.712866     -36.895073      8.7779651e-10 -0.00013786612  0.00011939274  5.8588834      5.8594693      3.2059042      110.05852    
+        10   0             -12.4078       -57.753126     -46.651147     -89.713158     -36.895073     -1.8964346e-09  0.00019759358  0.00028261233  5.8588834      5.8594693      3.2059042      110.05852    
+        11   0             -12.4078       -57.753125     -46.652051     -89.712253     -36.895072      9.5421029e-09 -0.00083755402 -0.0011963592   5.8588834      5.8594693      3.2059042      110.05852    
+        12   0             -12.4078       -57.753125     -46.651952     -89.712351     -36.895072     -1.3625175e-08  0.00077129531  0.0010979239   5.8588834      5.8594693      3.2059042      110.05852    
+        13   0             -12.4078       -57.753124     -46.650889     -89.713413     -36.895072     -7.7522878e-09  0.0032599677   0.0046568251   5.8588834      5.8594693      3.2059042      110.05852    
+        14   0             -12.4078       -57.753124     -46.650686     -89.713616     -36.895072      1.9355238e-10  0.0011313068   0.0016226552   5.8588834      5.8594693      3.2059042      110.05852    
+        15   0             -12.4078       -57.753124     -46.651344     -89.712957     -36.895072      7.3156987e-11 -0.00086308752 -0.0012342119   5.8588834      5.8594693      3.2059042      110.05852    
+        16   0             -12.4078       -57.753124     -46.651773     -89.712529     -36.895072     -3.5454021e-12  2.68643e-05    3.3825505e-05  5.8588834      5.8594693      3.2059042      110.05852    
+        17   0             -12.4078       -57.753124     -46.651656     -89.712646     -36.895072      1.4442768e-13  4.8986024e-06  6.1955403e-06  5.8588834      5.8594693      3.2059042      110.05852    
+        18   0             -12.4078       -57.753124     -46.651433     -89.712869     -36.895072      3.2946139e-14 -8.8126948e-06 -1.1122303e-05  5.8588834      5.8594693      3.2059042      110.05852    
+        19   0             -12.4078       -57.753124     -46.651393     -89.712909     -36.895072     -1.494934e-14   1.6628566e-05  2.0934119e-05  5.8588834      5.8594693      3.2059042      110.05852    
+        20   0             -12.4078       -57.753124     -46.651393     -89.712909     -36.895072     -1.494934e-14   1.6628566e-05  2.0934119e-05  5.8588834      5.8594693      3.2059042      110.05852    
+Loop time of 0.00144204 on 1 procs for 15 steps with 4 atoms
+
+85.2% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077994090281  -12.4077995128454  -12.4077995128454
+  Force two-norm initial, final = 0.00074152267 5.376343e-09
+  Force max component initial, final = 0.00037736553 2.8134657e-09
+  Final line search alpha, max atom move = 0.5 1.4067328e-09
+  Iterations, force evaluations = 15 28
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0012199  | 0.0012199  | 0.0012199  |   0.0 | 84.60
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 4.1821e-05 | 4.1821e-05 | 4.1821e-05 |   0.0 |  2.90
+Output  | 0.00014579 | 0.00014579 | 0.00014579 |   0.0 | 10.11
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 3.448e-05  |            |       |  2.39
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2055815) with tilt (0 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.407799      55.880272      36.934599      36.908298      93.797918     -9.0202398e-07  0.15117166    -0.31500207     5.8588834      5.8588834      3.2055837      110.03651    
+         6   0             -12.407799      55.880228      36.92847       36.914318      93.797897     -4.2126013e-07  0.011910528   -0.024814572    5.8588834      5.8588834      3.2055837      110.03651    
+         7   0             -12.407799      55.880226      36.921676      36.921105      93.797898      1.8086479e-07 -0.020342941    0.042382164    5.8588834      5.8588834      3.2055837      110.03651    
+         8   0             -12.407799      55.880225      36.918426      36.924353      93.797898     -7.3439527e-10  7.815582e-05  -0.00016362926  5.8588834      5.8588834      3.2055837      110.03651    
+         9   0             -12.407799      55.880226      36.926175      36.916604      93.797898     -4.6451994e-10  7.5124986e-05 -0.00015308004  5.8588834      5.8588834      3.2055837      110.03651    
+        10   0             -12.407799      55.880226      36.913556      36.929224      93.797898      2.2960044e-09 -0.00031868469  0.00064941952  5.8588834      5.8588834      3.2055837      110.03651    
+        11   0             -12.407799      55.880226      36.933602      36.909179      93.797898     -1.1592208e-08  0.0013327962  -0.0027160121   5.8588834      5.8588834      3.2055837      110.03651    
+        12   0             -12.407799      55.880227      36.924657      36.918124      93.797898      2.7526275e-08 -0.0026899664   0.0054816969   5.8588834      5.8588834      3.2055837      110.03651    
+        13   0             -12.407799      55.880227      36.896102      36.946681      93.797899      4.1818647e-09 -0.0055722429   0.011355279    5.8588834      5.8588834      3.2055837      110.03651    
+        14   0             -12.407799      55.880227      36.90043       36.942352      93.797899     -1.3984718e-09 -0.00021116076  0.00043029971  5.8588834      5.8588834      3.2055837      110.03651    
+        15   0             -12.407799      55.880227      36.914765      36.928018      93.797899      2.3515307e-10  0.00068310247 -0.0013920445   5.8588834      5.8588834      3.2055837      110.03651    
+        16   0             -12.407799      55.880227      36.922273      36.920509      93.797899      6.2840021e-11 -4.2446553e-05  8.6501364e-05  5.8588834      5.8588834      3.2055837      110.03651    
+        17   0             -12.407799      55.880227      36.921522      36.92126       93.797899     -6.8890908e-11  2.9402732e-05 -5.9919394e-05  5.8588834      5.8588834      3.2055837      110.03651    
+        18   0             -12.407799      55.880227      36.919392      36.923391      93.797899      3.1152549e-11  5.9457453e-05 -0.00012116749  5.8588834      5.8588834      3.2055837      110.03651    
+        19   0             -12.407799      55.880227      36.919392      36.923391      93.797899      3.1152549e-11  5.9457453e-05 -0.00012116749  5.8588834      5.8588834      3.2055837      110.03651    
+Loop time of 0.00130127 on 1 procs for 14 steps with 4 atoms
+
+15.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077994983541  -12.4077994989375  -12.4077994989375
+  Force two-norm initial, final = 7.6917172e-05 6.7931464e-08
+  Force max component initial, final = 4.4368766e-05 3.5997799e-08
+  Final line search alpha, max atom move = 0.5 1.7998899e-08
+  Iterations, force evaluations = 14 25
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.001086   | 0.001086   | 0.001086   |   0.0 | 83.46
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.2035e-05 | 3.2035e-05 | 3.2035e-05 |   0.0 |  2.46
+Output  | 0.00015539 | 0.00015539 | 0.00015539 |   0.0 | 11.94
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.787e-05  |            |       |  2.14
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2062227) with tilt (0 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.407799     -55.825697     -36.895488     -36.92179      -93.659812     -9.0105795e-07  0.15125511    -0.31517595     5.8588834      5.8588834      3.2062248      110.05852    
+         6   0             -12.407799     -55.82574      -36.901618     -36.915769     -93.659833     -4.2063407e-07  0.011909588   -0.024812602    5.8588834      5.8588834      3.2062248      110.05852    
+         7   0             -12.407799     -55.825742     -36.908413     -36.90898      -93.659833      1.8056401e-07 -0.020361209    0.042420219    5.8588834      5.8588834      3.2062248      110.05852    
+         8   0             -12.407799     -55.825743     -36.911661     -36.905735     -93.659833     -7.4132043e-10  7.9139834e-05 -0.00016568073  5.8588834      5.8588834      3.2062248      110.05852    
+         9   0             -12.407799     -55.825743     -36.903919     -36.913477     -93.659832     -4.6953807e-10  7.5950954e-05 -0.00015479692  5.8588834      5.8588834      3.2062248      110.05852    
+        10   0             -12.407799     -55.825742     -36.916514     -36.900881     -93.659832      2.3177037e-09 -0.00032195395  0.00065622507  5.8588834      5.8588834      3.2062248      110.05852    
+        11   0             -12.407799     -55.825742     -36.896508     -36.920886     -93.659832     -1.1693007e-08  0.0013460123  -0.002743544    5.8588834      5.8588834      3.2062248      110.05852    
+        12   0             -12.407799     -55.825742     -36.905273     -36.91212      -93.659832      2.748544e-08  -0.0026863214   0.0054754658   5.8588834      5.8588834      3.2062248      110.05852    
+        13   0             -12.407799     -55.825741     -36.933529     -36.883863     -93.659831      4.1041708e-09 -0.0055828977   0.011379479    5.8588834      5.8588834      3.2062248      110.05852    
+        14   0             -12.407799     -55.825741     -36.929331     -36.888061     -93.659831     -1.3596815e-09 -0.0002265198   0.00046169992  5.8588834      5.8588834      3.2062248      110.05852    
+        15   0             -12.407799     -55.825741     -36.915334     -36.902058     -93.659831      2.2480528e-10  0.00067016951 -0.0013659881   5.8588834      5.8588834      3.2062248      110.05852    
+        16   0             -12.407799     -55.825741     -36.907843     -36.909549     -93.659831      6.1512799e-11 -4.2997578e-05  8.7643365e-05  5.8588834      5.8588834      3.2062248      110.05852    
+        17   0             -12.407799     -55.825741     -36.908562     -36.90883      -93.659831     -6.6188401e-11  2.9044541e-05 -5.9202293e-05  5.8588834      5.8588834      3.2062248      110.05852    
+        18   0             -12.407799     -55.825741     -36.910637     -36.906755     -93.659831      2.982528e-11   6.0766668e-05 -0.0001238626   5.8588834      5.8588834      3.2062248      110.05852    
+        19   0             -12.407799     -55.825741     -36.910637     -36.906755     -93.659831      2.982528e-11   6.0766668e-05 -0.0001238626   5.8588834      5.8588834      3.2062248      110.05852    
+Loop time of 0.00128198 on 1 procs for 14 steps with 4 atoms
+
+89.9% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077994986705  -12.4077994992536  -12.4077994992536
+  Force two-norm initial, final = 7.6872451e-05 6.6856874e-08
+  Force max component initial, final = 4.434463e-05 3.5487124e-08
+  Final line search alpha, max atom move = 0.5 1.7743562e-08
+  Iterations, force evaluations = 14 25
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0010881  | 0.0010881  | 0.0010881  |   0.0 | 84.87
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.3951e-05 | 3.3951e-05 | 3.3951e-05 |   0.0 |  2.65
+Output  | 0.00013292 | 0.00013292 | 0.00013292 |   0.0 | 10.37
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.704e-05  |            |       |  2.11
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 -0.00032059042)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.4078        0.0026432102   0.014050597   -0.0072431814   0.0011222147   1.4613943e-05  0.1512134      9.1706555      5.8588834      5.8588834      3.2059042      110.04752    
+         6   0             -12.4078        0.0020715526   0.010024332   -0.0054749213   0.0016652474  -6.2847806e-07  0.0019233758   7.9437708      5.8588834      5.8588834      3.2059042      110.04752    
+         7   0             -12.4078        0.0020623091   0.0078747646  -0.0033717679   0.0016839305   3.5305092e-07 -0.0021035861   7.9107177      5.8588834      5.8588834      3.2059042      110.04752    
+         8   0             -12.4078        0.0020647254   0.0053131226  -0.00079306637  0.00167412    -7.7738826e-10  5.2304325e-06  7.9280432      5.8588834      5.8588834      3.2059042      110.04752    
+         9   0             -12.4078        0.002065124    0.0090917368  -0.004570772    0.0016744071  -6.4919326e-10  9.557047e-06   7.9280491      5.8588834      5.8588834      3.2059042      110.04752    
+        10   0             -12.4078        0.0020653732   0.0029491291   0.0015721885   0.001674802    3.1537078e-09 -4.0526828e-05  7.9277589      5.8588834      5.8588834      3.2059042      110.04752    
+        11   0             -12.4078        0.0020658849   0.013000935   -0.0084775581   0.0016742775  -1.5351231e-08  0.00017185463  7.9289966      5.8588834      5.8588834      3.2059042      110.04752    
+        12   0             -12.4078        0.0020654767   0.0058940155  -0.0013736757   0.0016760902   3.6908791e-08 -0.00032710307  7.9260813      5.8588834      5.8588834      3.2059042      110.04752    
+        13   0             -12.4078        0.002065146   -0.024513291    0.029029349    0.0016793792   3.3928757e-08 -0.0011629425   7.921206       5.8588834      5.8588834      3.2059042      110.04752    
+        14   0             -12.4078        0.0020663224  -0.019743292    0.024265875    0.0016763843   1.8497105e-09 -0.0002503526   7.9265418      5.8588834      5.8588834      3.2059042      110.04752    
+        15   0             -12.4078        0.00206701     0.0028549416   0.0016715586   0.0016745297  -3.4391037e-09  0.00030716981  7.9297927      5.8588834      5.8588834      3.2059042      110.04752    
+        16   0             -12.4078        0.0020666373   0.0074614076  -0.0029370419   0.0016755461   1.5850099e-11  2.8140716e-06  7.9280104      5.8588834      5.8588834      3.2059042      110.04752    
+        17   0             -12.4078        0.002066633    0.0070163992  -0.0024920584   0.0016755581  -1.8965363e-11 -7.52512e-07    7.9279897      5.8588834      5.8588834      3.2059042      110.04752    
+        18   0             -12.4078        0.002066629    0.0054361791  -0.00091186163  0.0016755694   4.8494599e-11 -4.1290978e-06  7.9279707      5.8588834      5.8588834      3.2059042      110.04752    
+        19   0             -12.4078        0.0020666518   0.007171135   -0.0026466901   0.0016755105  -1.4322641e-10  1.3740458e-05  7.9280744      5.8588834      5.8588834      3.2059042      110.04752    
+        20   0             -12.4078        0.0020666184   0.0070994245  -0.0025751711   0.0016756019   1.3667739e-10 -1.3605325e-05  7.9279145      5.8588834      5.8588834      3.2059042      110.04752    
+        21   0             -12.4078        0.0020665862   0.0064864462  -0.001962378    0.0016756905   4.4364313e-10 -4.0096954e-05  7.9277598      5.8588834      5.8588834      3.2059042      110.04752    
+        22   0             -12.4078        0.0020666258   0.0063387997  -0.0018145045   0.0016755823   8.9485004e-11 -7.7127075e-06  7.9279493      5.8588834      5.8588834      3.2059042      110.04752    
+        23   0             -12.4078        0.0020666516   0.0066748938  -0.0021504521   0.0016755129  -1.4931004e-10  1.3140801e-05  7.9280711      5.8588834      5.8588834      3.2059042      110.04752    
+        24   0             -12.4078        0.0020666344   0.0069109806  -0.002386637    0.0016755597   9.4494598e-12 -8.6049868e-07  7.9279891      5.8588834      5.8588834      3.2059042      110.04752    
+        25   0             -12.4078        0.0020666338   0.0068334156  -0.0023090755   0.0016755612   1.5685864e-11 -1.3558043e-06  7.9279863      5.8588834      5.8588834      3.2059042      110.04752    
+        26   0             -12.4078        0.0020666366   0.0067085368  -0.00218418     0.0016755532  -1.1811054e-11  1.0430903e-06  7.9280004      5.8588834      5.8588834      3.2059042      110.04752    
+        27   0             -12.4078        0.0020666366   0.0067085368  -0.00218418     0.0016755532  -1.1811054e-11  1.0430903e-06  7.9280004      5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.00199459 on 1 procs for 22 steps with 4 atoms
+
+100.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077997899938  -12.4077997937626  -12.4077997937626
+  Force two-norm initial, final = 0.000198245 2.4339172e-09
+  Force max component initial, final = 0.00011485672 1.2196768e-09
+  Final line search alpha, max atom move = 0.5 6.0983838e-10
+  Iterations, force evaluations = 22 39
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0016955  | 0.0016955  | 0.0016955  |   0.0 | 85.01
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 4.9225e-05 | 4.9225e-05 | 4.9225e-05 |   0.0 |  2.47
+Output  | 0.0002132  | 0.0002132  | 0.0002132  |   0.0 | 10.69
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 3.664e-05  |            |       |  1.84
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0.00032059042)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.4078        0.0031444861   0.014235115   -0.0057499884   0.00094833161 -1.6417026e-05  0.1512134     -9.800834       5.8588834      5.8588834      3.2059042      110.04752    
+         6   0             -12.4078        0.0020706131   0.010024402   -0.0054805015   0.0016679387  -6.2070824e-07  0.00090047842 -7.9391089      5.8588834      5.8588834      3.2059042      110.04752    
+         7   0             -12.4078        0.0020634817   0.0079519209  -0.003442234    0.001680758    3.2031317e-07 -0.000949369   -7.9162551      5.8588834      5.8588834      3.2059042      110.04752    
+         8   0             -12.4078        0.002064722    0.005301278   -0.00078124165  0.0016741298  -6.962983e-10   1.8626967e-06 -7.9280261      5.8588834      5.8588834      3.2059042      110.04752    
+         9   0             -12.4078        0.0020651212   0.009110442   -0.0045894936   0.0016744152  -4.7397354e-10  6.1934363e-06 -7.928035       5.8588834      5.8588834      3.2059042      110.04752    
+        10   0             -12.4078        0.0020653858   0.0029185594   0.0016028297   0.0016747682   2.4122725e-09 -2.6263349e-05 -7.9278184      5.8588834      5.8588834      3.2059042      110.04752    
+        11   0             -12.4078        0.0020658323   0.013050809   -0.0085277336   0.0016744216  -1.2243358e-08  0.00011137016 -7.9287443      5.8588834      5.8588834      3.2059042      110.04752    
+        12   0             -12.4078        0.0020655723   0.0057676532  -0.0012467565   0.0016758201   3.1134761e-08 -0.00021353707 -7.926551       5.8588834      5.8588834      3.2059042      110.04752    
+        13   0             -12.4078        0.0020654733  -0.026061763    0.030579682    0.0016785009   1.1407658e-08 -0.00077778201 -7.9227506      5.8588834      5.8588834      3.2059042      110.04752    
+        14   0             -12.4078        0.0020663811  -0.020736937    0.025259858    0.001676222   -2.9238022e-09 -0.00017471753 -7.9268254      5.8588834      5.8588834      3.2059042      110.04752    
+        15   0             -12.4078        0.0020669727   0.0046074657  -8.1178862e-05  0.0016746313   2.654665e-09   0.0002394316  -7.929614       5.8588834      5.8588834      3.2059042      110.04752    
+        16   0             -12.4078        0.0020666387   0.0075441348  -0.0030197605   0.0016755417   8.0747694e-11  3.5491166e-06 -7.9280179      5.8588834      5.8588834      3.2059042      110.04752    
+        17   0             -12.4078        0.0020666314   0.0069687939  -0.0024444616   0.0016755618  -5.1541324e-11 -1.6501894e-06 -7.927983       5.8588834      5.8588834      3.2059042      110.04752    
+        18   0             -12.4078        0.0020666264   0.0050710578  -0.00054675438  0.0016755758  -4.8331308e-11 -5.2597181e-06 -7.9279594      5.8588834      5.8588834      3.2059042      110.04752    
+        19   0             -12.4078        0.0020666575   0.0061818116  -0.001657334    0.0016754949   1.8264404e-10  1.5930963e-05 -7.9281022      5.8588834      5.8588834      3.2059042      110.04752    
+        20   0             -12.4078        0.0020666168   0.0067111145  -0.0021868702   0.0016756062  -1.4888582e-10 -1.2895787e-05 -7.9279071      5.8588834      5.8588834      3.2059042      110.04752    
+        21   0             -12.4078        0.0020666387   0.0070882002  -0.002563831    0.001675547    3.0464148e-11  2.4678789e-06 -7.9280108      5.8588834      5.8588834      3.2059042      110.04752    
+        22   0             -12.4078        0.0020666443   0.0066668306  -0.0021424298   0.0016755319   6.6065091e-11  6.4060675e-06 -7.9280376      5.8588834      5.8588834      3.2059042      110.04752    
+        23   0             -12.4078        0.0020666283   0.0062098093  -0.0016855      0.0016755756  -5.3748756e-11 -4.9124417e-06 -7.9279613      5.8588834      5.8588834      3.2059042      110.04752    
+        24   0             -12.4078        0.0020666353   0.0067634209  -0.0022390716   0.0016755566   1.5611265e-14  1.1957961e-10 -7.9279942      5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.00169389 on 1 procs for 19 steps with 4 atoms
+
+100.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+     -12.4077997856653  -12.4077997937626  -12.4077997937626
+  Force two-norm initial, final = 0.00029097666 6.4410407e-14
+  Force max component initial, final = 0.00016275463 3.1837915e-14
+  Final line search alpha, max atom move = 1 3.1837915e-14
+  Iterations, force evaluations = 19 33
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0014371  | 0.0014371  | 0.0014371  |   0.0 | 84.84
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 4.1909e-05 | 4.1909e-05 | 4.1909e-05 |   0.0 |  2.47
+Output  | 0.00018092 | 0.00018092 | 0.00018092 |   0.0 | 10.68
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 3.393e-05  |            |       |  2.00
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 -0.00032059042 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.4078        0.0030141271   0.020163206   -0.012114369    0.00099354425 -3.3231452e-05  9.6369673     -0.31508905     5.8588834      5.8588834      3.2059042      110.04752    
+         6   0             -12.4078        0.0020707446   0.0077233595  -0.0031786813   0.0016675555  -6.0404439e-07  7.939775      -0.0021732326   5.8588834      5.8588834      3.2059042      110.04752    
+         7   0             -12.4078        0.0020633215   0.0013938185   0.0031149589   0.0016811872   3.0316319e-07  7.9155058      0.0023010642   5.8588834      5.8588834      3.2059042      110.04752    
+         8   0             -12.4078        0.002064721   -0.0067178989   0.011237925    0.0016741368  -7.0609386e-10  7.9280129     -3.8129557e-06  5.8588834      5.8588834      3.2059042      110.04752    
+         9   0             -12.4078        0.0020651319   0.0049609766  -0.00043996134  0.0016743804  -2.376017e-10   7.9280978     -1.8445749e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        10   0             -12.4078        0.0020653375  -0.014024104    0.018545204    0.001674912    1.331196e-09   7.9275636      7.8265748e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        11   0             -12.4078        0.0020660727   0.014138833   -0.0096145091   0.0016738939  -6.925584e-09   7.9297247     -0.00031713279  5.8588834      5.8588834      3.2059042      110.04752    
+        12   0             -12.4078        0.0020650458  -0.004086785    0.0086039855   0.0016779368   2.3639737e-08  7.9230921      0.00090206749  5.8588834      5.8588834      3.2059042      110.04752    
+        13   0             -12.4078        0.002064851   -0.043336216    0.047850473    0.0016802959  -8.0706778e-09  7.919611       0.0015395037   5.8588834      5.8588834      3.2059042      110.04752    
+        14   0             -12.4078        0.0020666676  -0.029273047    0.03379762     0.0016754297  -2.1465529e-09  7.9281862     -3.7571011e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        15   0             -12.4078        0.0020670511  -0.0042171777   0.0087439468   0.0016743841   4.5454042e-09  7.9300329     -0.00037537546  5.8588834      5.8588834      3.2059042      110.04752    
+        16   0             -12.4078        0.0020665997  -0.00019523861  0.0047194255   0.0016756122  -1.3342218e-10  7.9278822      2.0784146e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        17   0             -12.4078        0.0020666713  -0.0032179303   0.0077425198   0.0016754243   1.9746152e-10  7.9282129     -4.0322359e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        18   0             -12.4078        0.0020666366  -0.0064542846   0.010978663    0.0016755319   2.6908005e-10  7.9280277     -6.5140675e-06  5.8588834      5.8588834      3.2059042      110.04752    
+        19   0             -12.4078        0.0020665053  -0.0035825639   0.0081061711   0.0016759087  -1.3120479e-09  7.9273758      0.00011370172  5.8588834      5.8588834      3.2059042      110.04752    
+        20   0             -12.4078        0.0020666879  -0.0020955784   0.0066202291   0.0016754129   5.2692571e-10  7.928246      -4.6320366e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        21   0             -12.4078        0.0020666545  -0.0012553089   0.0057797687   0.0016755036   1.9572662e-10  7.9280873     -1.70395e-05    5.8588834      5.8588834      3.2059042      110.04752    
+        22   0             -12.4078        0.0020666147  -0.0020754754   0.0065997078   0.0016756118  -2.0586314e-10  7.9278972      1.7873476e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        23   0             -12.4078        0.0020666368  -0.002632376    0.0071567338   0.0016755527   1.6145017e-11  7.9280009     -1.2666278e-06  5.8588834      5.8588834      3.2059042      110.04752    
+        24   0             -12.4078        0.002066649   -0.0022907367   0.0068151646   0.0016755192   1.3397345e-10  7.9280598     -1.2063993e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        25   0             -12.4078        0.0020666313  -0.0020128593   0.0065371855   0.0016755675  -3.9420898e-11  7.927975       3.558798e-06   5.8588834      5.8588834      3.2059042      110.04752    
+        26   0             -12.4078        0.0020666313  -0.0020128593   0.0065371855   0.0016755675  -3.9420898e-11  7.927975       3.558798e-06   5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.00190852 on 1 procs for 21 steps with 4 atoms
+
+100.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077997867909  -12.4077997937626  -12.4077997937626
+  Force two-norm initial, final = 0.00026994431 1.2074501e-08
+  Force max component initial, final = 0.00014740454 6.9542561e-09
+  Final line search alpha, max atom move = 0.5 3.4771281e-09
+  Iterations, force evaluations = 21 38
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0016249  | 0.0016249  | 0.0016249  |   0.0 | 85.14
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 4.8665e-05 | 4.8665e-05 | 4.8665e-05 |   0.0 |  2.55
+Output  | 0.00019945 | 0.00019945 | 0.00019945 |   0.0 | 10.45
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 3.548e-05  |            |       |  1.86
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0.00032059042 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.4078        0.0027735636   0.019446607   -0.012202915    0.0010769985   3.142837e-05  -9.3345403     -0.31508905     5.8588834      5.8588834      3.2059042      110.04752    
+         6   0             -12.4078        0.0020711441   0.0077654775  -0.0032184537   0.0016664084  -6.5034681e-07 -7.9417614     -0.0030863672   5.8588834      5.8588834      3.2059042      110.04752    
+         7   0             -12.4078        0.0020628186   0.0013177981   0.0031881074   0.0016825504   3.7013265e-07 -7.9131285      0.0033293889   5.8588834      5.8588834      3.2059042      110.04752    
+         8   0             -12.4078        0.00206473    -0.0067230085   0.011243087    0.001674112   -8.6392447e-10 -7.9280564     -1.4084332e-05  5.8588834      5.8588834      3.2059042      110.04752    
+         9   0             -12.4078        0.0020651014   0.0049691035  -0.00044826257  0.0016744632  -5.709425e-10  -7.9279524      8.9605295e-06  5.8588834      5.8588834      3.2059042      110.04752    
+        10   0             -12.4078        0.0020654668  -0.014037297    0.018559137    0.0016745604   2.9236787e-09 -7.9281801     -3.7950614e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        11   0             -12.4078        0.0020655508   0.014078389   -0.0095570565   0.0016753194  -1.4057295e-08 -7.927228       0.00015354866  5.8588834      5.8588834      3.2059042      110.04752    
+        12   0             -12.4078        0.0020663622   0.0036409305   0.00088388907  0.0016742669   3.4764982e-08 -7.9294954     -0.00029742896  5.8588834      5.8588834      3.2059042      110.04752    
+        13   0             -12.4078        0.0020673986  -0.031293275    0.035822065    0.0016734055   8.6441531e-09 -7.9317106     -0.00074022379  5.8588834      5.8588834      3.2059042      110.04752    
+        14   0             -12.4078        0.0020668053  -0.027040212    0.031565539    0.0016750888  -2.6065239e-09 -7.9287984     -0.00016182637  5.8588834      5.8588834      3.2059042      110.04752    
+        15   0             -12.4078        0.0020663721  -0.0025003442   0.0070232044   0.001676256    2.6586823e-09 -7.9267619      0.00024456365  5.8588834      5.8588834      3.2059042      110.04752    
+        16   0             -12.4078        0.0020666333  -0.0010103872   0.0055347416   0.0016755454   4.2528286e-11 -7.9280082     -2.667797e-06   5.8588834      5.8588834      3.2059042      110.04752    
+        17   0             -12.4078        0.0020666278  -0.0023222493   0.0068465704   0.0016755621  -8.2127651e-11 -7.9279791      2.9949166e-06  5.8588834      5.8588834      3.2059042      110.04752    
+        18   0             -12.4078        0.0020666293  -0.004662326    0.0091866503   0.0016755634   7.7458895e-11 -7.9279776      3.0788315e-06  5.8588834      5.8588834      3.2059042      110.04752    
+        19   0             -12.4078        0.0020666482  -0.0024646103   0.0069890358   0.001675519   -1.3928701e-10 -7.9280591     -1.2906139e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        20   0             -12.4078        0.0020666015  -0.0019855984   0.0065097561   0.0016756466   3.3549804e-10 -7.9278357      3.1483067e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        21   0             -12.4078        0.0020666351  -0.0020339028   0.006558253    0.0016755549   3.6323709e-12 -7.9279965     -4.2507402e-07  5.8588834      5.8588834      3.2059042      110.04752    
+        22   0             -12.4078        0.0020666351  -0.0020339028   0.006558253    0.0016755549   3.6323709e-12 -7.9279965     -4.2507402e-07  5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.00155839 on 1 procs for 17 steps with 4 atoms
+
+100.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077997888682  -12.4077997937626  -12.4077997937626
+  Force two-norm initial, final = 0.00022605055 2.2925225e-08
+  Force max component initial, final = 0.00012441932 1.1024032e-08
+  Final line search alpha, max atom move = 0.5 5.5120159e-09
+  Iterations, force evaluations = 17 30
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0013291  | 0.0013291  | 0.0013291  |   0.0 | 85.29
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.8786e-05 | 3.8786e-05 | 3.8786e-05 |   0.0 |  2.49
+Output  | 0.00015969 | 0.00015969 | 0.00015969 |   0.0 | 10.25
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 3.078e-05  |            |       |  1.97
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (-0.00058588834 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.4078       -0.0013707346   0.013291497   -0.016044609   -0.0013590921   10.626134      0.15118106    -0.31505837     5.8588834      5.8588834      3.2059042      110.04752    
+         6   0             -12.4078       -0.0014138416   0.0064656122  -0.0093274414  -0.0013796954   10.626134      0.011911941   -0.024813932    5.8588834      5.8588834      3.2059042      110.04752    
+         7   0             -12.4078       -0.0014160035  -0.0011028065  -0.0017657925  -0.0013794115   10.626133     -0.02035055     0.042399467    5.8588834      5.8588834      3.2059042      110.04752    
+         8   0             -12.4078       -0.0014170068  -0.0047221506   0.0018506428  -0.0013795126   10.626133      7.7520755e-05 -0.00016588618  5.8588834      5.8588834      3.2059042      110.04752    
+         9   0             -12.4078       -0.0014166098   0.0039064146  -0.0067770226  -0.0013792213   10.626134      8.1009244e-05 -0.0001502407   5.8588834      5.8588834      3.2059042      110.04752    
+        10   0             -12.4078       -0.0014162978  -0.010137301    0.0072673997  -0.0013789925   10.626132     -0.00034351005  0.00063713732  5.8588834      5.8588834      3.2059042      110.04752    
+        11   0             -12.4078       -0.0014160283   0.011843123   -0.014712413   -0.0013787958   10.626135      0.0014264455  -0.0026458359   5.8588834      5.8588834      3.2059042      110.04752    
+        12   0             -12.4078       -0.0014156886   0.0023807622  -0.0052492792  -0.0013785487   10.626134     -0.0029708318   0.005510645    5.8588834      5.8588834      3.2059042      110.04752    
+        13   0             -12.4078       -0.0014151182  -0.027032471    0.024165253   -0.0013781369   10.626131     -0.0058898466   0.010924628    5.8588834      5.8588834      3.2059042      110.04752    
+        14   0             -12.4078       -0.0014150904  -0.022120803    0.01925364    -0.001378108    10.626131     -0.00019696337  0.00036500855  5.8588834      5.8588834      3.2059042      110.04752    
+        15   0             -12.4078       -0.0014150905  -0.0076765239   0.004809359   -0.0013781065   10.626133      0.0007264635  -0.0013474009   5.8588834      5.8588834      3.2059042      110.04752    
+        16   0             -12.4078       -0.0014150906  -0.00047625682 -0.0023909086  -0.0013781063   10.626133     -4.2676613e-05  7.9251805e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        17   0             -12.4078       -0.0014150903  -0.0013861742  -0.0014809905  -0.001378106    10.626133      3.9189913e-05 -7.2779534e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        18   0             -12.4078       -0.0014150892  -0.0034953599   0.00062819755 -0.0013781053   10.626133      5.4630331e-05 -0.00010144149  5.8588834      5.8588834      3.2059042      110.04752    
+        19   0             -12.4078       -0.0014150892  -0.0034953599   0.00062819755 -0.0013781053   10.626133      5.4630331e-05 -0.00010144149  5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.00130589 on 1 procs for 14 steps with 4 atoms
+
+100.1% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077997839131  -12.4077997844964  -12.4077997844964
+  Force two-norm initial, final = 7.6894623e-05 7.0241656e-08
+  Force max component initial, final = 4.4356052e-05 3.7504579e-08
+  Final line search alpha, max atom move = 0.5 1.8752289e-08
+  Iterations, force evaluations = 14 25
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0011101  | 0.0011101  | 0.0011101  |   0.0 | 85.01
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.2095e-05 | 3.2095e-05 | 3.2095e-05 |   0.0 |  2.46
+Output  | 0.00013486 | 0.00013486 | 0.00013486 |   0.0 | 10.33
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.882e-05  |            |       |  2.21
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+
+The 'box' command has been removed and will be ignored
+
+Reading restart file ...
+  restart file = 22 Jul 2025, LAMMPS = 22 Jul 2025
+  restoring atom style atomic from restart
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0 0 0)
+  1 by 1 by 1 MPI processor grid
+  pair style meam stores no restart info
+  4 atoms
+  read_restart CPU = 0.000 seconds
+Changing box ...
+  triclinic box = (8.292779e-06 8.292779e-06 -2.1206076e-06) to (5.8588917 5.8588917 3.2059021) with tilt (0.00058588834 0 0)
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 2 2 2
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair meam, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair meam, perpetual, half/full from (1)
+      attributes: half, newton on
+      pair build: halffull/newton/tri
+      stencil: none
+      bin: none
+Setting up cg style minimization ...
+  Unit style    : metal
+  Current step  : 5
+Per MPI rank memory allocation (min/avg/max) = 9.617 | 9.617 | 9.617 Mbytes
+   Step          Temp          PotEng         Press           Pxx            Pyy            Pzz            Pxy            Pxz            Pyz             Lx             Ly             Lz           Volume    
+         5   0             -12.4078       -0.0013707332   0.013291497   -0.016044605   -0.0013590912  -10.626136      0.15124572    -0.31511964     5.8588834      5.8588834      3.2059042      110.04752    
+         6   0             -12.4078       -0.0014138407   0.0064655457  -0.0093273731  -0.0013796948  -10.626134      0.011907531   -0.024811954    5.8588834      5.8588834      3.2059042      110.04752    
+         7   0             -12.4078       -0.0014160032  -0.0011029237  -0.0017656745  -0.0013794113  -10.626133     -0.020353688    0.042403122    5.8588834      5.8588834      3.2059042      110.04752    
+         8   0             -12.4078       -0.0014170063  -0.0047222092   0.0018507025  -0.0013795122  -10.626133      8.0313263e-05 -0.0001645216   5.8588834      5.8588834      3.2059042      110.04752    
+         9   0             -12.4078       -0.0014166096   0.0039065264  -0.0067771339  -0.0013792211  -10.626134      6.9185866e-05 -0.00015590213  5.8588834      5.8588834      3.2059042      110.04752    
+        10   0             -12.4078       -0.0014162976  -0.010137483    0.0072675825  -0.0013789922  -10.626132     -0.00029339515  0.00066115564  5.8588834      5.8588834      3.2059042      110.04752    
+        11   0             -12.4078       -0.001416028    0.011843511   -0.0147128     -0.0013787956  -10.626135      0.0012184318  -0.0027456298   5.8588834      5.8588834      3.2059042      110.04752    
+        12   0             -12.4078       -0.0014156885   0.0023708942  -0.005239411   -0.0013785487  -10.626134     -0.0025385881   0.0057201867   5.8588834      5.8588834      3.2059042      110.04752    
+        13   0             -12.4078       -0.001415118   -0.027059072    0.024191855   -0.0013781368  -10.626131     -0.0050328429   0.01134124     5.8588834      5.8588834      3.2059042      110.04752    
+        14   0             -12.4078       -0.0014150906  -0.022138635    0.019271471   -0.0013781081  -10.626131     -0.00016787085  0.00037872952  5.8588834      5.8588834      3.2059042      110.04752    
+        15   0             -12.4078       -0.0014150905  -0.0076746483   0.0048074832  -0.0013781065  -10.626133      0.00062177333 -0.0014012157   5.8588834      5.8588834      3.2059042      110.04752    
+        16   0             -12.4078       -0.0014150906  -0.00047469943 -0.0023924659  -0.0013781063  -10.626133     -3.653082e-05   8.2190892e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        17   0             -12.4078       -0.0014150904  -0.0013863082  -0.001480857   -0.0013781062  -10.626133      3.3564737e-05 -7.5513316e-05  5.8588834      5.8588834      3.2059042      110.04752    
+        18   0             -12.4078       -0.0014150891  -0.0034995402   0.00063237803 -0.0013781052  -10.626133      4.6766697e-05 -0.00010523291  5.8588834      5.8588834      3.2059042      110.04752    
+        19   0             -12.4078       -0.0014150891  -0.0034995402   0.00063237803 -0.0013781052  -10.626133      4.6766697e-05 -0.00010523291  5.8588834      5.8588834      3.2059042      110.04752    
+Loop time of 0.00127394 on 1 procs for 14 steps with 4 atoms
+
+100.1% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+Minimization stats:
+  Stopping criterion = linesearch alpha is zero
+  Energy initial, next-to-last, final = 
+     -12.4077997839131  -12.4077997844964  -12.4077997844964
+  Force two-norm initial, final = 7.6895319e-05 7.0327171e-08
+  Force max component initial, final = 4.4357336e-05 3.7548791e-08
+  Final line search alpha, max atom move = 0.5 1.8774395e-08
+  Iterations, force evaluations = 14 25
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.0010899  | 0.0010899  | 0.0010899  |   0.0 | 85.56
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.3859e-05 | 3.3859e-05 | 3.3859e-05 |   0.0 |  2.66
+Output  | 0.00012332 | 0.00012332 | 0.00012332 |   0.0 |  9.68
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 2.682e-05  |            |       |  2.11
+
+Nlocal:              4 ave           4 max           4 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            225 ave         225 max         225 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:             52 ave          52 max          52 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:          104 ave         104 max         104 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 104
+Ave neighs/atom = 26
+Neighbor list builds = 0
+Dangerous builds = 0
+=========================================
+Components of the Elastic Constant Tensor
+=========================================
+Elastic Constant C11all = 89.7499936744275 GPa
+Elastic Constant C22all = 89.7500351102632 GPa
+Elastic Constant C33all = 93.7288650869126 GPa
+Elastic Constant C12all = 46.669673608745 GPa
+Elastic Constant C13all = 36.9150323151725 GPa
+Elastic Constant C23all = 36.9150614081415 GPa
+Elastic Constant C44all = 7.92799729037026 GPa
+Elastic Constant C55all = 7.92798572757273 GPa
+Elastic Constant C66all = 10.6261330361014 GPa
+Elastic Constant C14all = -8.34133772838165e-06 GPa
+Elastic Constant C15all = 1.33759797733648e-05 GPa
+Elastic Constant C16all = 1.04508366646058e-06 GPa
+Elastic Constant C24all = 8.494476193964e-06 GPa
+Elastic Constant C25all = -9.51726925051915e-06 GPa
+Elastic Constant C26all = -1.04512036757856e-06 GPa
+Elastic Constant C34all = 6.72916485687992e-07 GPa
+Elastic Constant C35all = -3.24145656118916e-07 GPa
+Elastic Constant C36all = -2.43468300519994e-11 GPa
+Elastic Constant C45all = 1.25671067460289e-06 GPa
+Elastic Constant C46all = 9.47854203413806e-07 GPa
+Elastic Constant C56all = 1.96589758075055e-06 GPa
+=========================================
+Average properties for a cubic crystal
+=========================================
+Bulk Modulus = 57.1364920595246 GPa
+Shear Modulus 1 = 8.8273720180148 GPa
+Shear Modulus 2 = 25.4548544232574 GPa
+Poisson Ratio = 0.306047741009458
+Total wall time: 0:00:00

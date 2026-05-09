@@ -1,0 +1,268 @@
+{
+  "cases": [
+    {
+      "face": "001",
+      "min_slab": 12,
+      "min_vac": 18,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 16,
+      "area_A2": 34.326709210000004,
+      "E_eV": -47.60679928008586,
+      "gamma_mJ_m2": 472.4378679335673
+    },
+    {
+      "face": "001",
+      "min_slab": 12,
+      "min_vac": 18,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 16,
+      "area_A2": 34.326709210000004,
+      "E_eV": -47.60679928008586,
+      "gamma_mJ_m2": 472.4378679335673
+    },
+    {
+      "face": "001",
+      "min_slab": 12,
+      "min_vac": 25,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 16,
+      "area_A2": 34.326709210000004,
+      "E_eV": -47.60679928008586,
+      "gamma_mJ_m2": 472.4378679335673
+    },
+    {
+      "face": "001",
+      "min_slab": 12,
+      "min_vac": 25,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 16,
+      "area_A2": 34.326709210000004,
+      "E_eV": -47.60679928008586,
+      "gamma_mJ_m2": 472.4378679335673
+    },
+    {
+      "face": "001",
+      "min_slab": 18,
+      "min_vac": 18,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 24,
+      "area_A2": 34.326709210000004,
+      "E_eV": -72.37226849157577,
+      "gamma_mJ_m2": 484.1369760244493
+    },
+    {
+      "face": "001",
+      "min_slab": 18,
+      "min_vac": 18,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 24,
+      "area_A2": 34.326709210000004,
+      "E_eV": -72.37226849157577,
+      "gamma_mJ_m2": 484.1369760244493
+    },
+    {
+      "face": "001",
+      "min_slab": 18,
+      "min_vac": 25,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 24,
+      "area_A2": 34.326709210000004,
+      "E_eV": -72.37226849157572,
+      "gamma_mJ_m2": 484.1369760244593
+    },
+    {
+      "face": "001",
+      "min_slab": 18,
+      "min_vac": 25,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 24,
+      "area_A2": 34.326709210000004,
+      "E_eV": -72.37226849157572,
+      "gamma_mJ_m2": 484.1369760244593
+    },
+    {
+      "face": "001",
+      "min_slab": 24,
+      "min_vac": 18,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 34.326709210000004,
+      "E_eV": -97.18392597832191,
+      "gamma_mJ_m2": 485.05704710406883
+    },
+    {
+      "face": "001",
+      "min_slab": 24,
+      "min_vac": 18,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 34.326709210000004,
+      "E_eV": -97.18392597832191,
+      "gamma_mJ_m2": 485.05704710406883
+    },
+    {
+      "face": "001",
+      "min_slab": 24,
+      "min_vac": 25,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 34.326709210000004,
+      "E_eV": -97.18392597832194,
+      "gamma_mJ_m2": 485.05704710406224
+    },
+    {
+      "face": "001",
+      "min_slab": 24,
+      "min_vac": 25,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 34.326709210000004,
+      "E_eV": -97.18392597832194,
+      "gamma_mJ_m2": 485.05704710406224
+    },
+    {
+      "face": "111",
+      "min_slab": 12,
+      "min_vac": 18,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 20,
+      "area_A2": 43.40424763446239,
+      "E_eV": -59.47953343914381,
+      "gamma_mJ_m2": 472.3866505902011
+    },
+    {
+      "face": "111",
+      "min_slab": 12,
+      "min_vac": 18,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 20,
+      "area_A2": 43.40424763446239,
+      "E_eV": -59.47953343914381,
+      "gamma_mJ_m2": 472.3866505902011
+    },
+    {
+      "face": "111",
+      "min_slab": 12,
+      "min_vac": 25,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 20,
+      "area_A2": 43.40424763446239,
+      "E_eV": -59.47953343914387,
+      "gamma_mJ_m2": 472.3866505901893
+    },
+    {
+      "face": "111",
+      "min_slab": 12,
+      "min_vac": 25,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 20,
+      "area_A2": 43.40424763446239,
+      "E_eV": -59.47953343914387,
+      "gamma_mJ_m2": 472.3866505901893
+    },
+    {
+      "face": "111",
+      "min_slab": 18,
+      "min_vac": 18,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 43.40424763446239,
+      "E_eV": -96.70168881197202,
+      "gamma_mJ_m2": 472.6163645743201
+    },
+    {
+      "face": "111",
+      "min_slab": 18,
+      "min_vac": 18,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 43.40424763446239,
+      "E_eV": -96.70168881197202,
+      "gamma_mJ_m2": 472.6163645743201
+    },
+    {
+      "face": "111",
+      "min_slab": 18,
+      "min_vac": 25,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 43.40424763446239,
+      "E_eV": -96.70168881197193,
+      "gamma_mJ_m2": 472.6163645743359
+    },
+    {
+      "face": "111",
+      "min_slab": 18,
+      "min_vac": 25,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 32,
+      "area_A2": 43.40424763446239,
+      "E_eV": -96.70168881197193,
+      "gamma_mJ_m2": 472.6163645743359
+    },
+    {
+      "face": "111",
+      "min_slab": 24,
+      "min_vac": 18,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 40,
+      "area_A2": 43.40424763446239,
+      "E_eV": -121.5176089946324,
+      "gamma_mJ_m2": 472.55727022363607
+    },
+    {
+      "face": "111",
+      "min_slab": 24,
+      "min_vac": 18,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 40,
+      "area_A2": 43.40424763446239,
+      "E_eV": -121.5176089946324,
+      "gamma_mJ_m2": 472.55727022363607
+    },
+    {
+      "face": "111",
+      "min_slab": 24,
+      "min_vac": 25,
+      "symmetric": false,
+      "term_index": 0,
+      "n_atoms": 40,
+      "area_A2": 43.40424763446239,
+      "E_eV": -121.5176089946324,
+      "gamma_mJ_m2": 472.55727022363607
+    },
+    {
+      "face": "111",
+      "min_slab": 24,
+      "min_vac": 25,
+      "symmetric": true,
+      "term_index": 0,
+      "n_atoms": 40,
+      "area_A2": 43.40424763446239,
+      "E_eV": -121.5176089946324,
+      "gamma_mJ_m2": 472.55727022363607
+    }
+  ]
+}

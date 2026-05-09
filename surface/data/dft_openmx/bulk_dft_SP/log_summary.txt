@@ -1,0 +1,6 @@
+<MD= 1>  Calculation of the overlap matrix
+<MD= 1>  Calculation of the nonlocal matrix
+<MD= 1>  Calculation of the VNA projector matrix
+<MD= 1>  Force calculation
+<MD= 1>  Total Energy
+  Utot  =    -284.157741623577

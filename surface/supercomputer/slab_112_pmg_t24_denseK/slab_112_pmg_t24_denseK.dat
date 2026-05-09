@@ -1,0 +1,78 @@
+#
+# β-Sn (112) slab (pymatgen, thick=24 Å, dense k)
+#   pymatgen symmetric slab, Δk ≈ 0.10 rad/Å (denser than previous)
+#
+System.CurrrentDirectory         ./
+System.Name                      slab_112_pmg_t24_denseK
+DATA.PATH                        ../../DFT_DATA19
+level.of.stdout                  1
+level.of.fileout                 0
+
+Species.Number                   1
+<Definition.of.Atomic.Species
+ Sn  Sn7.0-s2p2d3f1  Sn_PBE19
+Definition.of.Atomic.Species>
+
+Atoms.Number                     32
+Atoms.SpeciesAndCoordinates.Unit Ang
+<Atoms.SpeciesAndCoordinates
+    1   Sn   -4.22142748   4.22142748   10.45850000   7.0  7.0
+    2   Sn    0.00000000   0.00000000   10.45850000   7.0  7.0
+    3   Sn   -6.33214123   6.33214123   12.87200000   7.0  7.0
+    4   Sn   -2.11071374   2.11071374   9.65400000   7.0  7.0
+    5   Sn   -4.22142748   4.22142748   13.67650000   7.0  7.0
+    6   Sn    0.00000000   0.00000000   13.67650000   7.0  7.0
+    7   Sn   -6.33214123   6.33214123   16.09000000   7.0  7.0
+    8   Sn   -2.11071374   2.11071374   12.87200000   7.0  7.0
+    9   Sn   -4.22142748   4.22142748   16.89450000   7.0  7.0
+   10   Sn    0.00000000   0.00000000   16.89450000   7.0  7.0
+   11   Sn   -6.33214123   6.33214123   19.30800000   7.0  7.0
+   12   Sn   -2.11071374   2.11071374   16.09000000   7.0  7.0
+   13   Sn   -4.22142748   4.22142748   20.11250000   7.0  7.0
+   14   Sn    0.00000000   0.00000000   20.11250000   7.0  7.0
+   15   Sn   -6.33214123   6.33214123   22.52600000   7.0  7.0
+   16   Sn   -2.11071374   2.11071374   19.30800000   7.0  7.0
+   17   Sn   -4.22142748   4.22142748   23.33050000   7.0  7.0
+   18   Sn    0.00000000   0.00000000   23.33050000   7.0  7.0
+   19   Sn   -6.33214123   6.33214123   25.74400000   7.0  7.0
+   20   Sn   -2.11071374   2.11071374   22.52600000   7.0  7.0
+   21   Sn   -4.22142748   4.22142748   26.54850000   7.0  7.0
+   22   Sn    0.00000000   0.00000000   26.54850000   7.0  7.0
+   23   Sn   -6.33214123   6.33214123   28.96200000   7.0  7.0
+   24   Sn   -2.11071374   2.11071374   25.74400000   7.0  7.0
+   25   Sn   -4.22142748   4.22142748   29.76650000   7.0  7.0
+   26   Sn    0.00000000   0.00000000   29.76650000   7.0  7.0
+   27   Sn   -6.33214123   6.33214123   32.18000000   7.0  7.0
+   28   Sn   -2.11071374   2.11071374   28.96200000   7.0  7.0
+   29   Sn   -4.22142748   4.22142748   32.98450000   7.0  7.0
+   30   Sn    0.00000000   0.00000000   32.98450000   7.0  7.0
+   31   Sn   -6.33214123   6.33214123   35.39800000   7.0  7.0
+   32   Sn   -2.11071374   2.11071374   32.18000000   7.0  7.0
+Atoms.SpeciesAndCoordinates>
+
+Atoms.UnitVectors.Unit           Ang
+<Atoms.UnitVectors
+   4.221427   0.000000  -1.609000
+  -8.442855   8.442855   3.218000
+   0.000000   0.000000   41.834000
+Atoms.UnitVectors>
+
+scf.XcType                       GGA-PBE
+scf.SpinPolarization             off
+scf.ElectronicTemperature        300.0
+scf.energycutoff                 200.0
+scf.maxIter                      600
+scf.EigenvalueSolver             Band
+scf.Kgrid                        14 6 1
+scf.Mixing.Type                  rmm-diisk
+scf.Init.Mixing.Weight           0.005
+scf.Min.Mixing.Weight            0.001
+scf.Max.Mixing.Weight            0.03
+scf.Mixing.History               15
+scf.Mixing.StartPulay            60
+scf.Kerker.factor                10.0
+scf.criterion                    1.0e-7
+
+MD.Type                          BFGS
+MD.maxIter                       1000
+MD.Opt.criterion                 3.0e-4

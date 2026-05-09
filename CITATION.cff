@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "Comparison of Elastic Constants and Surface Energies of β-Sn — data and code"
+message: "Companion archive to Tatsumi et al. (in review at MSMSE, 2026). Please cite the paper if you use this material."
+type: software
+authors:
+  - family-names: Tatsumi
+    given-names: Hiroaki
+    affiliation: "Joining and Welding Research Institute, The University of Osaka"
+    email: tatsumi.jwri@osaka-u.ac.jp
+  - family-names: Ito
+    given-names: Atsushi M.
+    affiliation: "National Institute for Fusion Science"
+  - family-names: Takayama
+    given-names: Arimichi
+    affiliation: "National Institute for Fusion Science"
+  - family-names: Nishikawa
+    given-names: Hiroshi
+    affiliation: "Joining and Welding Research Institute, The University of Osaka"
+abstract: >-
+  Companion data and code repository for "Comparison of Elastic Constants and
+  Surface Energies of β-Sn" (in review). All inputs, outputs, and analysis
+  scripts required to reproduce the elastic constant tensor and surface
+  energies of β-Sn (I4₁/amd) for eight computational methods: DFT/PBE
+  (OpenMX 3.9.9), four PFP modes (PBE, PBE+D3, r²SCAN, r²SCAN+D3) on the
+  Matlantis platform, and three classical MEAM potentials
+  (Ravelo–Baskes 1997, Etesami et al. 2018, Ko et al. 2018) via LAMMPS.
+license: MIT
+preferred-citation:
+  type: article
+  title: "Comparison of Elastic Constants and Surface Energies of β-Sn"
+  authors:
+    - family-names: Tatsumi
+      given-names: Hiroaki
+    - family-names: Ito
+      given-names: Atsushi M.
+    - family-names: Takayama
+      given-names: Arimichi
+    - family-names: Nishikawa
+      given-names: Hiroshi
+  journal: "Modelling and Simulation in Materials Science and Engineering"
+  year: 2026
+  notes: "Submitted (in review)"

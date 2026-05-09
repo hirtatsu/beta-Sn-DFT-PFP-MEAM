@@ -1,0 +1,40 @@
+# OpenMX restart files (large, not needed for reproduction)
+**/*_rst/
+**/*_rst.tar.gz
+
+# Print-quality TIFs (PNG previews kept; TIFs available on request / via release tarball)
+figures/*.tif
+figures/**/*.tif
+
+# Off-topic / deferred work not in MSMSE submission
+figures/gb_deferred/
+_archive/
+
+# Author-only manuscript drafts (versioned elsewhere)
+docx/
+
+# OS / editor
+.DS_Store
+*.swp
+__pycache__/
+*.py[cod]
+
+# Compiled outputs
+*.so
+*.o
+*.exe
+
+# OpenMX HSE/restart raw files (huge, machine-dependent)
+**/*.scfout
+**/*.adrst*
+**/*.crst*
+**/*.rst*
+**/*.brst*
+
+# Temporary
+*.tmp
+*~
+
+# Internal session-handoff documents (private, not for public release)
+HANDOFF.md
+PAPER_SUMMARY.md

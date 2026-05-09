@@ -1,0 +1,80 @@
+{
+  "surface": [
+    {
+      "face": "(001)",
+      "L": 8,
+      "pfp": 736.2,
+      "dft_sp": 579.6
+    },
+    {
+      "face": "(110)",
+      "L": 8,
+      "pfp": 737.5,
+      "dft_sp": 532.5
+    },
+    {
+      "face": "(100)",
+      "L": 12,
+      "pfp": 834.5,
+      "dft_sp": 619.7
+    },
+    {
+      "face": "(101)",
+      "L": 12,
+      "pfp": 833.1,
+      "dft_sp": 624.1
+    }
+  ],
+  "gb": [
+    {
+      "name": "\u03a35(210)[001]",
+      "type": "tilt_001",
+      "theta": 36.87,
+      "gamma": 181.2,
+      "\u03a3": 5,
+      "gb_plane": "(210)"
+    },
+    {
+      "name": "\u03a317(410)[001]",
+      "type": "tilt_001",
+      "theta": 28.07,
+      "gamma": 300.4,
+      "\u03a3": 17,
+      "gb_plane": "(410)"
+    },
+    {
+      "name": "\u03a313(320)[001]",
+      "type": "tilt_001",
+      "theta": 22.62,
+      "gamma": 373.7,
+      "\u03a3": 13,
+      "gb_plane": "(320)"
+    },
+    {
+      "name": "\u03a35(310)[001]",
+      "type": "tilt_001",
+      "theta": 53.13,
+      "gamma": 369.7,
+      "\u03a3": 5,
+      "gb_plane": "(310)"
+    },
+    {
+      "name": "(101) twin",
+      "type": "twin",
+      "theta": null,
+      "gamma": 126.4,
+      "note": "compound, \u03b3-surface physical min"
+    },
+    {
+      "name": "(301) twin",
+      "type": "twin",
+      "theta": null,
+      "gamma": 21.6,
+      "note": "compound, \u03b3-surface physical min \u2014 \u03b2-Sn \"tin cry\" twin"
+    }
+  ],
+  "references": {
+    "exp_surface_avg_mJ_m2": 670,
+    "source": "Tyson\u2013Miller 1977, semi-empirical avg for \u03b2-Sn"
+  }
+}

@@ -1,0 +1,78 @@
+#
+# β-Sn (110) slab L=8 full-atom relaxation
+# k-mesh target Δk ≈ 0.15 rad/Å (Acta Materialia 2026 compliant)
+#
+System.CurrrentDirectory         ./
+System.Name                      slab_110_L8_Relax
+DATA.PATH                        ../../DFT_DATA19
+level.of.stdout                  1
+level.of.fileout                 0
+
+Species.Number                   1
+<Definition.of.Atomic.Species
+ Sn  Sn7.0-s2p2d3f1  Sn_PBE19
+Definition.of.Atomic.Species>
+
+Atoms.Number                     32
+Atoms.SpeciesAndCoordinates.Unit Ang
+<Atoms.SpeciesAndCoordinates
+    1   Sn    0.00000000   0.00000000   15.00000000   7.0  7.0
+    2   Sn    4.22142748   1.60900000   15.00000000   7.0  7.0
+    3   Sn    6.33214123   2.41350000   17.11071374   7.0  7.0
+    4   Sn    2.11071374   0.80450000   17.11071374   7.0  7.0
+    5   Sn    4.22142748   0.00000000   19.22142748   7.0  7.0
+    6   Sn    0.00000000   1.60900000   19.22142748   7.0  7.0
+    7   Sn    2.11071374   2.41350000   21.33214123   7.0  7.0
+    8   Sn    6.33214123   0.80450000   21.33214123   7.0  7.0
+    9   Sn    0.00000000   0.00000000   23.44285497   7.0  7.0
+   10   Sn    4.22142748   1.60900000   23.44285497   7.0  7.0
+   11   Sn    6.33214123   2.41350000   25.55356871   7.0  7.0
+   12   Sn    2.11071374   0.80450000   25.55356871   7.0  7.0
+   13   Sn    4.22142748   0.00000000   27.66428245   7.0  7.0
+   14   Sn    0.00000000   1.60900000   27.66428245   7.0  7.0
+   15   Sn    2.11071374   2.41350000   29.77499619   7.0  7.0
+   16   Sn    6.33214123   0.80450000   29.77499619   7.0  7.0
+   17   Sn    0.00000000   0.00000000   31.88570993   7.0  7.0
+   18   Sn    4.22142748   1.60900000   31.88570993   7.0  7.0
+   19   Sn    6.33214123   2.41350000   33.99642368   7.0  7.0
+   20   Sn    2.11071374   0.80450000   33.99642368   7.0  7.0
+   21   Sn    4.22142748   0.00000000   36.10713742   7.0  7.0
+   22   Sn    0.00000000   1.60900000   36.10713742   7.0  7.0
+   23   Sn    2.11071374   2.41350000   38.21785116   7.0  7.0
+   24   Sn    6.33214123   0.80450000   38.21785116   7.0  7.0
+   25   Sn    0.00000000   0.00000000   40.32856490   7.0  7.0
+   26   Sn    4.22142748   1.60900000   40.32856490   7.0  7.0
+   27   Sn    6.33214123   2.41350000   42.43927864   7.0  7.0
+   28   Sn    2.11071374   0.80450000   42.43927864   7.0  7.0
+   29   Sn    4.22142748   0.00000000   44.54999239   7.0  7.0
+   30   Sn    0.00000000   1.60900000   44.54999239   7.0  7.0
+   31   Sn    2.11071374   2.41350000   46.66070613   7.0  7.0
+   32   Sn    6.33214123   0.80450000   46.66070613   7.0  7.0
+Atoms.SpeciesAndCoordinates>
+
+Atoms.UnitVectors.Unit           Ang
+<Atoms.UnitVectors
+   8.442855   0.000000   0.000000
+   0.000000   3.218000   0.000000
+   0.000000   0.000000   61.660706
+Atoms.UnitVectors>
+
+scf.XcType                       GGA-PBE
+scf.SpinPolarization             off
+scf.ElectronicTemperature        300.0
+scf.energycutoff                 200.0
+scf.maxIter                      600
+scf.EigenvalueSolver             Band
+scf.Kgrid                        5 14 1
+scf.Mixing.Type                  rmm-diisk
+scf.Init.Mixing.Weight           0.005
+scf.Min.Mixing.Weight            0.001
+scf.Max.Mixing.Weight            0.03
+scf.Mixing.History               15
+scf.Mixing.StartPulay            60
+scf.Kerker.factor                10.0
+scf.criterion                    1.0e-7
+
+MD.Type                          BFGS
+MD.maxIter                       1000
+MD.Opt.criterion                 3.0e-4

@@ -1,0 +1,26 @@
+{
+  "potential": "Ko 2018 MEAM (Sn)",
+  "E_per_atom_eV": -3.10195,
+  "cases": [
+    {
+      "face": "001",
+      "term_index": 0,
+      "n_atoms": 20,
+      "area_A2": 34.326709210000004,
+      "E_init_eV": -59.86023611236248,
+      "E_relaxed_eV": -59.97410372560174,
+      "gamma_mJ_m2": 481.8883849350014,
+      "symmetric": false
+    },
+    {
+      "face": "111",
+      "term_index": 0,
+      "n_atoms": 24,
+      "area_A2": 43.40424763446239,
+      "E_init_eV": -71.5308798901498,
+      "E_relaxed_eV": -71.88670744161834,
+      "gamma_mJ_m2": 472.5021875067026,
+      "symmetric": false
+    }
+  ]
+}

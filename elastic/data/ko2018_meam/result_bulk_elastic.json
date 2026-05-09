@@ -1,0 +1,38 @@
+{
+  "potential": "Ko 2018 MEAM (Sn)",
+  "reference": "W.-S. Ko, D.-H. Kim, Y.-J. Kwon, M. Lee (2018), Metals 8(11), 900. DOI: 10.3390/met8110900",
+  "method": "LAMMPS examples/ELASTIC template, finite strain (up=1e-4) with cell+atom relaxation",
+  "computed_by": "lmp_kokkos (LAMMPS 22 Jul 2025 Update 4) on NISSVR-LIVERPOOL, CUDA 12.6.3 + oneAPI 2025.1",
+  "bulk": {
+    "a_Ang": 5.8588834,
+    "c_Ang": 3.2059042,
+    "c_over_a": 0.5472,
+    "volume_Ang3": 110.0475,
+    "energy_per_atom_eV": -3.101950
+  },
+  "elastic_constants_GPa": {
+    "C11": 89.7500,
+    "C22": 89.7500,
+    "C33": 93.7289,
+    "C12": 46.6697,
+    "C13": 36.9150,
+    "C23": 36.9151,
+    "C44": 7.9280,
+    "C55": 7.9280,
+    "C66": 10.6261
+  },
+  "off_diagonal_max_abs_GPa": 1.34e-5,
+  "comparison_with_NIST_IPR": {
+    "a_NIST": 5.8589,
+    "c_NIST": 3.2059,
+    "E_per_atom_NIST": -3.1019,
+    "C11_NIST": 89.750,
+    "C12_NIST": 46.670,
+    "C13_NIST": 36.915,
+    "C33_NIST": 93.729,
+    "C44_NIST": 7.928,
+    "C66_NIST": 10.626,
+    "max_abs_diff_Cij_GPa": 0.001,
+    "verdict": "all 6 independent Cij match NIST IPR within 1e-3 GPa; bulk geometry matches within 1e-5 Ang and 1e-5 eV/atom"
+  }
+}

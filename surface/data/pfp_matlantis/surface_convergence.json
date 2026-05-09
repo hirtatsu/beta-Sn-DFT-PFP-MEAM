@@ -1,0 +1,304 @@
+[
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      0
+    ],
+    "tag": "100",
+    "layers": 8,
+    "vacuum": 15.0,
+    "n_atoms_built": 32,
+    "n_atoms": 32,
+    "area_A2": 18.54962938957615,
+    "E_slab_eV": -109.82910792923002,
+    "gamma_mJ_m2": 839.1245657488312
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      0
+    ],
+    "tag": "100",
+    "layers": 12,
+    "vacuum": 15.0,
+    "n_atoms_built": 48,
+    "n_atoms": 48,
+    "area_A2": 18.54962938957615,
+    "E_slab_eV": -165.7257785001037,
+    "gamma_mJ_m2": 834.5478504869072
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      0
+    ],
+    "tag": "100",
+    "layers": 16,
+    "vacuum": 15.0,
+    "n_atoms_built": 64,
+    "n_atoms": 64,
+    "area_A2": 18.54962938957615,
+    "E_slab_eV": -221.61197501703563,
+    "gamma_mJ_m2": 834.4944827755322
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      0
+    ],
+    "tag": "100",
+    "layers": 20,
+    "vacuum": 15.0,
+    "n_atoms_built": 80,
+    "n_atoms": 80,
+    "area_A2": 18.54962938957615,
+    "E_slab_eV": -277.49810435977014,
+    "gamma_mJ_m2": 834.470125058098
+  },
+  {
+    "phase": "A",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 8,
+    "vacuum": 15.0,
+    "n_atoms_built": 32,
+    "n_atoms": 32,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -108.63184915805644,
+    "gamma_mJ_m2": 736.1723168384117
+  },
+  {
+    "phase": "A",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 12,
+    "vacuum": 15.0,
+    "n_atoms_built": 48,
+    "n_atoms": 48,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -164.52302625062288,
+    "gamma_mJ_m2": 734.9757627174856
+  },
+  {
+    "phase": "A",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 16,
+    "vacuum": 15.0,
+    "n_atoms_built": 64,
+    "n_atoms": 64,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -220.4097922034535,
+    "gamma_mJ_m2": 734.8133016280152
+  },
+  {
+    "phase": "A",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 20,
+    "vacuum": 15.0,
+    "n_atoms_built": 80,
+    "n_atoms": 80,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -276.2958860341716,
+    "gamma_mJ_m2": 734.8084045320862
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      1,
+      0
+    ],
+    "tag": "110",
+    "layers": 8,
+    "vacuum": 15.0,
+    "n_atoms_built": 32,
+    "n_atoms": 32,
+    "area_A2": 26.233138034599442,
+    "E_slab_eV": -109.35703241597957,
+    "gamma_mJ_m2": 737.5096103495772
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      1,
+      0
+    ],
+    "tag": "110",
+    "layers": 12,
+    "vacuum": 15.0,
+    "n_atoms_built": 48,
+    "n_atoms": 48,
+    "area_A2": 26.233138034599442,
+    "E_slab_eV": -165.2431018703786,
+    "gamma_mJ_m2": 737.5106751027693
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      1,
+      0
+    ],
+    "tag": "110",
+    "layers": 16,
+    "vacuum": 15.0,
+    "n_atoms_built": 64,
+    "n_atoms": 64,
+    "area_A2": 26.233138034599442,
+    "E_slab_eV": -221.12917471872152,
+    "gamma_mJ_m2": 737.5107034383076
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      1,
+      0
+    ],
+    "tag": "110",
+    "layers": 20,
+    "vacuum": 15.0,
+    "n_atoms_built": 80,
+    "n_atoms": 80,
+    "area_A2": 26.233138034599442,
+    "E_slab_eV": -277.0152597020073,
+    "gamma_mJ_m2": 737.5070260941214
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      1
+    ],
+    "tag": "101",
+    "layers": 8,
+    "vacuum": 15.0,
+    "n_atoms_built": 32,
+    "n_atoms": 32,
+    "area_A2": 38.882139205619296,
+    "E_slab_eV": -107.67865776567487,
+    "gamma_mJ_m2": 843.3809207483573
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      1
+    ],
+    "tag": "101",
+    "layers": 12,
+    "vacuum": 15.0,
+    "n_atoms_built": 48,
+    "n_atoms": 48,
+    "area_A2": 38.882139205619296,
+    "E_slab_eV": -163.61462591991324,
+    "gamma_mJ_m2": 833.1010153055574
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      1
+    ],
+    "tag": "101",
+    "layers": 16,
+    "vacuum": 15.0,
+    "n_atoms_built": 64,
+    "n_atoms": 64,
+    "area_A2": 38.882139205619296,
+    "E_slab_eV": -219.50257690721676,
+    "gamma_mJ_m2": 832.714081653023
+  },
+  {
+    "phase": "A",
+    "miller": [
+      1,
+      0,
+      1
+    ],
+    "tag": "101",
+    "layers": 20,
+    "vacuum": 15.0,
+    "n_atoms_built": 80,
+    "n_atoms": 80,
+    "area_A2": 38.882139205619296,
+    "E_slab_eV": -275.3736145132435,
+    "gamma_mJ_m2": 835.8118101438455
+  },
+  {
+    "phase": "B",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 8,
+    "vacuum": 10.0,
+    "n_atoms": 32,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -108.63183686650203,
+    "gamma_mJ_m2": 736.1751983183749
+  },
+  {
+    "phase": "B",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 8,
+    "vacuum": 15.0,
+    "n_atoms_built": 32,
+    "n_atoms": 32,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -108.63184915805644,
+    "gamma_mJ_m2": 736.1723168384117
+  },
+  {
+    "phase": "B",
+    "miller": [
+      0,
+      0,
+      1
+    ],
+    "tag": "001",
+    "layers": 8,
+    "vacuum": 20.0,
+    "n_atoms": 32,
+    "area_A2": 34.17209404309477,
+    "E_slab_eV": -108.63183142101808,
+    "gamma_mJ_m2": 736.1764748902684
+  }
+]

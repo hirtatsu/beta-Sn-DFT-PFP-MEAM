@@ -1,0 +1,18 @@
+# Element-specific MEAM parameters for Sn — Ravelo-Baskes 1997 reconstruction
+# Reference structure: fcc with a_fcc = 4.860 A (so re = 4.860/sqrt(2) = 3.43654 A)
+# Note: Ravelo-Baskes uses single-element standard MEAM (nn2=0), no ZBL, no 2NN.
+#
+rc       = 5.5
+delr     = 0.1
+augt1    = 0
+erose_form = 2
+ialloy   = 0
+
+zbl(1,1)    = 0
+nn2(1,1)    = 0
+attrac(1,1) = 0
+repuls(1,1) = 0
+Cmin(1,1,1) = 0.8
+Cmax(1,1,1) = 2.8
+Ec(1,1)     = 3.08
+re(1,1)     = 3.436538957

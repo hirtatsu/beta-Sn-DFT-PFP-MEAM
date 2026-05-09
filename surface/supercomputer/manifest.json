@@ -1,0 +1,91 @@
+{
+  "data_path_relative": "../../DFT_DATA19",
+  "bulk_lattice": {
+    "a": 5.97,
+    "c": 3.218
+  },
+  "jobs": [
+    {
+      "sysname": "bulk_dft_SP",
+      "kind": "bulk",
+      "n_atoms": 4,
+      "kgrid": [
+        8,
+        8,
+        14
+      ]
+    },
+    {
+      "sysname": "slab_001_L8_Relax",
+      "kind": "slab",
+      "face": "001",
+      "layers": 8,
+      "n_atoms": 32,
+      "cell_Ang": [
+        5.97,
+        5.97,
+        54.9395
+      ],
+      "area_A2": 35.640899999999995,
+      "kgrid": [
+        8,
+        8,
+        1
+      ]
+    },
+    {
+      "sysname": "slab_110_L8_Relax",
+      "kind": "slab",
+      "face": "110",
+      "layers": 8,
+      "n_atoms": 32,
+      "cell_Ang": [
+        8.442854967367376,
+        3.218,
+        61.66070612762766
+      ],
+      "area_A2": 27.169107284988215,
+      "kgrid": [
+        5,
+        14,
+        1
+      ]
+    },
+    {
+      "sysname": "slab_100_L12_Relax",
+      "kind": "slab",
+      "face": "100",
+      "layers": 12,
+      "n_atoms": 48,
+      "cell_Ang": [
+        5.97,
+        3.218,
+        98.655
+      ],
+      "area_A2": 19.21146,
+      "kgrid": [
+        8,
+        14,
+        1
+      ]
+    },
+    {
+      "sysname": "slab_101_L12_Relax",
+      "kind": "slab",
+      "face": "101",
+      "layers": 12,
+      "n_atoms": 48,
+      "cell_Ang": [
+        6.7820663517839455,
+        5.97,
+        61.86771019176916
+      ],
+      "area_A2": 40.48893612015015,
+      "kgrid": [
+        7,
+        8,
+        1
+      ]
+    }
+  ]
+}
