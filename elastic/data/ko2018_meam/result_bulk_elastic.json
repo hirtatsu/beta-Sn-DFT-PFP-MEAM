@@ -2,7 +2,7 @@
   "potential": "Ko 2018 MEAM (Sn)",
   "reference": "W.-S. Ko, D.-H. Kim, Y.-J. Kwon, M. Lee (2018), Metals 8(11), 900. DOI: 10.3390/met8110900",
   "method": "LAMMPS examples/ELASTIC template, finite strain (up=1e-4) with cell+atom relaxation",
-  "computed_by": "lmp_kokkos (LAMMPS 22 Jul 2025 Update 4) on NISSVR-LIVERPOOL, CUDA 12.6.3 + oneAPI 2025.1",
+  "computed_by": "lmp_kokkos (LAMMPS 22 Jul 2025 Update 4), CUDA 12.6.3 + oneAPI 2025.1",
   "bulk": {
     "a_Ang": 5.8588834,
     "c_Ang": 3.2059042,

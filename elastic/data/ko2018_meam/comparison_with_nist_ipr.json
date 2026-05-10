@@ -6,7 +6,7 @@
     "nist_ipr_id": "2018--Ko-W-S-Kim-D-H-Kwon-Y-J-Lee-M--Sn",
     "nist_ipr_url": "https://www.ctcms.nist.gov/potentials/entry/2018--Ko-W-S-Kim-D-H-Kwon-Y-J-Lee-M--Sn/2018--Ko-W-S--Sn--LAMMPS--ipr1.html"
   },
-  "computed_by": "lmp_kokkos (LAMMPS 22 Jul 2025 Update 4) on NISSVR-LIVERPOOL, CUDA 12.6.3 + oneAPI 2025.1",
+  "computed_by": "lmp_kokkos (LAMMPS 22 Jul 2025 Update 4), CUDA 12.6.3 + oneAPI 2025.1",
   "bulk": {
     "lammps": {"a_Ang": 5.8588834, "c_Ang": 3.2059042, "E_per_atom_eV": -3.10195},
     "nist_ipr": {"a_Ang": 5.8589, "c_Ang": 3.2059, "E_per_atom_eV": -3.1019},

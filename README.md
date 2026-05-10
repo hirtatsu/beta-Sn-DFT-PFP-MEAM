@@ -93,11 +93,11 @@ See `figures/fig5_surface_energies_8methods.png` and
 
 > **Note on paths.** Some legacy scripts in `elastic/scripts/`, `surface/scripts/`,
 > and `surface/data/{ko2018_meam,…}/` contain hardcoded absolute paths from the
-> original development environment (`/home/tatsumi/...`). They are kept verbatim
-> as a record of how the data were produced. To re-run on your own machine,
-> either edit those paths to match your workspace or set the `LAMMPS_BIN`,
-> `POT_DIR`, etc. variables at the top of each script. The numerical results
-> they produced are already cached in JSON/CSV form under `*/data/`.
+> original development environment. They are kept verbatim as a record of how
+> the data were produced. To re-run on your own machine, either edit those paths
+> to match your workspace or set the `LAMMPS_BIN`, `POT_DIR`, etc. variables at
+> the top of each script. The numerical results they produced are already cached
+> in JSON/CSV form under `*/data/`.
 
 ### DFT/PBE (OpenMX 3.9.9 on supercomputer)
 - `surface/supercomputer/<run>/jobA.sh` — PBS job script (modify for your queue)

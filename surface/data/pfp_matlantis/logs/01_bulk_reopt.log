@@ -1,9 +1,9 @@
-/home/jovyan/.py313/lib/python3.13/site-packages/pfp_api_client/__init__.py:45: UserWarning: New version of pfp-api-client is available. Please consider upgrading by `pip install -U pfp-api-client`.
+[matlantis]/.py313/lib/python3.13/site-packages/pfp_api_client/__init__.py:45: UserWarning: New version of pfp-api-client is available. Please consider upgrading by `pip install -U pfp-api-client`.
   warnings.warn(
-/home/jovyan/work_dir/beta_sn_surface_gb/scripts/01_bulk_reopt.py:38: DeprecationWarning: Use FrechetCellFilter for better convergence w.r.t. cell variables.
+[matlantis]/work_dir/beta_sn_surface_gb/scripts/01_bulk_reopt.py:38: DeprecationWarning: Use FrechetCellFilter for better convergence w.r.t. cell variables.
   ecf = ExpCellFilter(atoms, hydrostatic_strain=False)
 a = 5.8457 A  (Δ = +0.25%)
 c = 3.1732 A  (Δ = -0.28%)
 c/a = 0.5428  (exp = 0.5457)
 E_per_atom = -3.4929 eV
-saved -> /home/jovyan/work_dir/beta_sn_surface_gb/results
+saved -> [matlantis]/work_dir/beta_sn_surface_gb/results
