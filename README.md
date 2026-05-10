@@ -66,21 +66,21 @@ A Zenodo DOI will be added on first stable release.
 ## Headline results (from the paper)
 
 ### Bulk lattice constants (Å)
-| | a | c |
-|---|---:|---:|
-| Experiment | 5.831 | 3.182 |
-| DFT/PBE | 5.930 | 3.201 |
-| PFP/PBE | 5.929 | 3.201 |
-| PFP/PBE+D3 | 5.842 | 3.151 |
+| | a | c | c/a |
+|---|---:|---:|---:|
+| Experiment (ICSD 40037) | 5.831 | 3.182 | 0.546 |
+| DFT/PBE | 5.970 | 3.218 | 0.539 |
+| PFP/PBE | 5.929 | 3.201 | 0.540 |
+| PFP/PBE+D3 | 5.846 | 3.173 | 0.543 |
 
 ### Elastic constants — MAPE vs experiment (lower = better)
 | Method | C₁₁ | C₃₃ | C₁₂ | C₁₃ | C₄₄ | C₆₆ | MAPE |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Experiment | 73.4 | 90.7 | 59.1 | 35.8 | 22.0 | 24.0 | — |
-| **PFP/PBE+D3** | 98.5 | 121.1 | 36.2 | 36.5 | **22.9** | 16.2 | **24.2 %** ★ |
-| DFT/PBE | 89.7 | 91.8 | 17.4 | 31.5 | 17.9 | 17.6 | 25.2 % |
-| MEAM/Ko 2018 | 89.8 | 93.7 | 46.7 | 36.9 | 7.9 | 10.6 | 28.2 % |
-| PFP/PBE | 114.0 | 104.6 | 41.5 | 41.2 | 29.5 | 31.9 | 30.4 % |
+| Experiment (Rayne–Chandrasekhar 1960) | 72.3 | 88.4 | 59.4 | 35.8 | 22.0 | 24.0 | — |
+| **PFP/PBE+D3** | 98.5 | 121.1 | 36.2 | 36.5 | **22.9** | 16.2 | **25.1 %** ★ |
+| DFT/PBE | 89.7 | 91.8 | 17.4 | 31.5 | 17.9 | 17.6 | 26.0 % |
+| MEAM/Ko 2018 | 89.7 | 93.7 | 46.7 | 36.9 | 7.9 | 10.6 | 29.1 % |
+| PFP/PBE | 114.0 | 104.6 | 41.5 | 41.2 | 29.5 | 31.9 | 31.4 % |
 
 ### Surface energies (mJ/m²) on β-Sn(100)
 DFT/PBE 492.2 — closely tracked by PFP/PBE (385.5) and MEAM/Ko (345.4) modes;
