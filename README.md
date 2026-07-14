@@ -45,14 +45,17 @@ A Zenodo DOI will be added on first stable release.
     paper-matching elastic protocol (LBFGS, ε=±0.5%, internal relax,
     tetragonal 4/mmm symmetrization)
 - **`surface/`** — surface energy calculations for 5 low-index faces
-  - `data/surface_energies_5faces.{json,csv}` — master γ table (8 methods × 5 faces)
+  - `data/surface_energies_5faces.{json,csv}` — master γ table (8 methods × 5
+    faces; lowest-energy states, DFT (001)/(110) at L = 12)
+  - `data/surface_energies_multistart.{json,csv}` — ideal-cleavage vs.
+    lowest-energy surface states (SI Table S1)
   - `data/dft_openmx/`, `data/pfp_matlantis/`, `data/meam_lammps/`,
     `data/ko2018_meam/` — per-method raw data
-  - `data/intermediate/` — methodology development records
-  - `supercomputer/` — DFT/PBE OpenMX raw outputs on SQUID
-    (slab inputs, full SCF/MD logs, per-step `.ene`/`.md`/`.out`)
-  - `make_figures.py` — regenerates the manuscript figures (Fig. 5,
-    SI Wulff shapes)
+  - `supercomputer/` — DFT/PBE OpenMX raw outputs (Plasma Simulator, NIFS):
+    slab inputs, full SCF/MD logs, per-step `.ene`/`.md`/`.out`, including the
+    L = 12/16 thickness runs and the seeded re-relaxations used in the revision
+  - `make_figures.py` — regenerates the surface-energy figure previews
+    (data of manuscript Figs. 4–5 and per-method Wulff shapes)
   - `scripts/27_wulff_shapes.py`, `30_surface_comparison_5faces_8methods.py`,
     `29_final_comparison_8methods.py`
 - **`meam_potentials/`** — Sn.MEAM parameter files for the three classical
@@ -82,9 +85,14 @@ A Zenodo DOI will be added on first stable release.
 | MEAM/Ko 2018 | 89.7 | 93.7 | 46.7 | 36.9 | 7.9 | 10.6 | 29.1 % |
 | PFP/PBE | 114.0 | 104.6 | 41.5 | 41.2 | 29.5 | 31.9 | 31.4 % |
 
-### Surface energies (mJ/m²) on β-Sn(100)
-DFT/PBE 492.2 — closely tracked by PFP/PBE (385.5) and MEAM/Ko (345.4) modes;
-PFP/r²SCAN+D3 nearest in anisotropy ratio.
+### Surface energies (mJ/m², lowest-energy states)
+DFT/PBE predicts (100) to be the lowest-energy plane (492.2), and six of the
+seven non-DFT methods reproduce this. Among them, PFP/r²SCAN agrees most
+closely with DFT/PBE (MAPE 5.0%). All slab relaxations include
+symmetry-broken starting configurations so that lower-lying surface states
+are not missed; the ideal-cleavage vs. lowest-energy values for all 40
+method–surface combinations are in
+`surface/data/surface_energies_multistart.{json,csv}` (SI Table S1).
 
 See `figures/fig5_surface_energies_8methods.png` and
 `figures/supp_wulff_8methods.png` for the full picture.

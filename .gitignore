@@ -38,3 +38,10 @@ __pycache__/
 # Internal session-handoff documents (private, not for public release)
 HANDOFF.md
 PAPER_SUMMARY.md
+
+# Referee correspondence and revision working data (private, not for public release)
+rebuttal_data/
+
+# Revision-internal check runs not reported in the paper/SI
+surface/supercomputer/slab_001_L8_Relax_recon/
+surface/supercomputer/slab_110_L8_Relax_recon/
