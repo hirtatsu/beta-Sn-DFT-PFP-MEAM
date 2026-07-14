@@ -1,5 +1,9 @@
 cff-version: 1.2.0
-doi: 10.5281/zenodo.21357963
+doi: 10.5281/zenodo.21357962
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21357963
+    description: "Version v1.0.0 (as reviewed)"
 title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials — data and code"
 message: "Companion archive to Tatsumi et al. (in review at MSMSE, 2026). Please cite the paper if you use this material."
 type: software
