@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Tatsumi
     given-names: Hiroaki
+    orcid: "https://orcid.org/0000-0002-0561-3100"
     affiliation: "Joining and Welding Research Institute, The University of Osaka"
     email: tatsumi.jwri@osaka-u.ac.jp
   - family-names: Ito
@@ -30,6 +31,7 @@ preferred-citation:
   authors:
     - family-names: Tatsumi
       given-names: Hiroaki
+      orcid: "https://orcid.org/0000-0002-0561-3100"
     - family-names: Ito
       given-names: Atsushi M.
     - family-names: Takayama
