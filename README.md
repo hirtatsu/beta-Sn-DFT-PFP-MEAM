@@ -63,8 +63,9 @@ A Zenodo DOI will be added on first stable release.
   `data/ko2018_meam/`
 - **`figures/`** — manuscript figures (PNG previews; high-resolution TIFs are
   available in the Zenodo archive once released)
-- **`beta-Sn.cif`** — reference crystal structure used as starting point
-  (ICSD 40037, a = 5.831 Å, c = 3.182 Å)
+- **`beta-Sn.cif`** — reference crystal structure used as starting point,
+  constructed from the published parameters corresponding to ICSD 40037
+  (a = 5.831 Å, c = 3.182 Å); not a database export
 
 ## Headline results (from the paper)
 
@@ -126,16 +127,15 @@ See `figures/fig5_surface_energies_8methods.png` and
 python surface/make_figures.py
 ```
 
-## Related repositories
-
-- [`hirtatsu/beta-Sn-foundation-MLIP`](https://github.com/hirtatsu/beta-Sn-foundation-MLIP)
-  — follow-up benchmark of three universal **foundation MLIPs** (MACE-MPA-0,
-  ORB v3, SevenNet-Omni) on β-Sn using the *same protocol* as this paper
-
 ## License
 
 Code: MIT.
 Data (CIFs, JSON results, raw OpenMX/LAMMPS outputs): CC-BY-4.0.
+
+**Exception:** the MEAM parameter files under `meam_potentials/` (and the
+copies under `surface/data/meam_lammps/meam_potentials/`) reproduce
+third-party published parameterizations and are *not* covered by the licenses
+above — see `meam_potentials/NOTICE` for provenance and citation requirements.
 
 ## Contact
 

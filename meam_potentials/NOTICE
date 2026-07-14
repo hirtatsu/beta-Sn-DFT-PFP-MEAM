@@ -1,0 +1,30 @@
+NOTICE — Third-party interatomic potential parameter files
+===========================================================
+
+The MEAM parameter files in this directory (and the copies under
+surface/data/meam_lammps/meam_potentials/) reproduce interatomic potential
+parameterizations published by third parties. They are provided here solely
+to make the calculations of the accompanying paper reproducible. The original
+authors retain all rights to these parameterizations; these files are
+EXCLUDED from the MIT and CC-BY-4.0 licenses that apply to the rest of this
+repository.
+
+Provenance:
+
+1. Sn.Ravelo1997.meam / library.Sn.Ravelo1997.meam
+   Parameterization: R. Ravelo and M. Baskes, Phys. Rev. Lett. 79 (1997)
+   2482-2485. The LAMMPS-format files were constructed by us by transcribing
+   the published parameters as tabulated in J. R. Vella et al., Phys. Rev. B
+   95 (2017) 064202 (Table I).
+
+2. Sn.Etesami2018.meam / library.Sn.Etesami2018.meam
+   Parameterization: S. A. Etesami, M. I. Baskes, M. Laradji, E. Asadi,
+   Acta Mater. 161 (2018) 320-330 (pure-Sn part).
+
+3. Sn.Ko2018.meam / library.Sn.Ko2018.meam
+   Parameterization: W.-S. Ko, D.-H. Kim, Y.-J. Kwon, M. Lee, Metals 8
+   (2018) 900. Files as distributed by the NIST Interatomic Potentials
+   Repository, entry "2018--Ko-W-S--Sn"
+   (https://www.ctcms.nist.gov/potentials/entry/2018--Ko-W-S--Sn/).
+
+If you use these potentials, cite the original publications above.
