@@ -5,7 +5,7 @@
 Companion data and code repository for:
 
 > H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
-> *Comparison of Elastic Constants and Surface Energies of β-Sn*.
+> *Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials*.
 > Submitted to *Modelling and Simulation in Materials Science and Engineering*
 > (2026, in review).
 
@@ -29,7 +29,7 @@ I4₁/amd):
 
 ```
 H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
-"Comparison of Elastic Constants and Surface Energies of β-Sn".
+"Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials".
 Modelling and Simulation in Materials Science and Engineering (2026, in review).
 ```
 
@@ -61,8 +61,8 @@ A Zenodo DOI will be added on first stable release.
 - **`meam_potentials/`** — Sn.MEAM parameter files for the three classical
   potentials, exactly as used with LAMMPS in `data/meam_lammps/` and
   `data/ko2018_meam/`
-- **`figures/`** — manuscript figures (PNG previews; high-resolution TIFs are
-  available in the Zenodo archive once released)
+- **`figures/`** — manuscript figures (150-dpi PNG previews and lossless
+  300-dpi TIFs)
 - **`beta-Sn.cif`** — reference crystal structure used as starting point,
   constructed from the published parameters corresponding to ICSD 40037
   (a = 5.831 Å, c = 3.182 Å); not a database export

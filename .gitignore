@@ -2,10 +2,6 @@
 **/*_rst/
 **/*_rst.tar.gz
 
-# Print-quality TIFs (PNG previews kept; TIFs available on request / via release tarball)
-figures/*.tif
-figures/**/*.tif
-
 # Off-topic / deferred work not in MSMSE submission
 figures/gb_deferred/
 _archive/

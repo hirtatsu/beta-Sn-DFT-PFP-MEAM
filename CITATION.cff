@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Comparison of Elastic Constants and Surface Energies of β-Sn — data and code"
+title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials — data and code"
 message: "Companion archive to Tatsumi et al. (in review at MSMSE, 2026). Please cite the paper if you use this material."
 type: software
 authors:
@@ -17,8 +17,7 @@ authors:
     given-names: Hiroshi
     affiliation: "Joining and Welding Research Institute, The University of Osaka"
 abstract: >-
-  Companion data and code repository for "Comparison of Elastic Constants and
-  Surface Energies of β-Sn" (in review). All inputs, outputs, and analysis
+  Companion data and code repository for "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials" (in review). All inputs, outputs, and analysis
   scripts required to reproduce the elastic constant tensor and surface
   energies of β-Sn (I4₁/amd) for eight computational methods: DFT/PBE
   (OpenMX 3.9.9), four PFP modes (PBE, PBE+D3, r²SCAN, r²SCAN+D3) on the
@@ -27,7 +26,7 @@ abstract: >-
 license: MIT
 preferred-citation:
   type: article
-  title: "Comparison of Elastic Constants and Surface Energies of β-Sn"
+  title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials"
   authors:
     - family-names: Tatsumi
       given-names: Hiroaki
