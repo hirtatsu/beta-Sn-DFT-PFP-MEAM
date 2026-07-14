@@ -1,6 +1,7 @@
 # Comparison of Elastic Constants and Surface Energies of β-Sn
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21357963.svg)](https://doi.org/10.5281/zenodo.21357963)
 
 Companion data and code repository for:
 
@@ -33,7 +34,7 @@ H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
 Modelling and Simulation in Materials Science and Engineering (2026, in review).
 ```
 
-A Zenodo DOI will be added on first stable release.
+Archived at Zenodo: [doi:10.5281/zenodo.21357963](https://doi.org/10.5281/zenodo.21357963) (v1.0.0).
 
 ## What's included
 
