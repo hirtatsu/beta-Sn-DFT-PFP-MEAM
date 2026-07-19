@@ -1,0 +1,45 @@
+=== Raw stresses (GPa), last MD step ===
+  xx_p    σ(xx,yy,zz,yz,xz,xy) = [ 0.318  0.173  0.172 -0.    -0.     0.   ]
+  xx_m    σ(xx,yy,zz,yz,xz,xy) = [-0.485 -0.102 -0.155 -0.     0.     0.   ]
+  yy_p    σ(xx,yy,zz,yz,xz,xy) = [-0.02   0.489  0.172  0.     0.     0.   ]
+  yy_m    σ(xx,yy,zz,yz,xz,xy) = [-0.091 -0.501 -0.154  0.     0.     0.   ]
+  zz_p    σ(xx,yy,zz,yz,xz,xy) = [0.109 0.109 0.424 0.    0.    0.   ]
+  zz_m    σ(xx,yy,zz,yz,xz,xy) = [-0.196 -0.196 -0.494 -0.     0.     0.   ]
+  yz_p    σ(xx,yy,zz,yz,xz,xy) = [-0.005 -0.059  0.011  0.089 -0.     0.   ]
+  yz_m    σ(xx,yy,zz,yz,xz,xy) = [-0.004 -0.051  0.01  -0.09   0.     0.   ]
+  xz_p    σ(xx,yy,zz,yz,xz,xy) = [-0.045 -0.025  0.013  0.     0.088  0.   ]
+  xz_m    σ(xx,yy,zz,yz,xz,xy) = [-0.046 -0.023  0.013 -0.    -0.09   0.   ]
+  xy_p    σ(xx,yy,zz,yz,xz,xy) = [0.003 0.003 0.003 0.    0.    0.091]
+  xy_m    σ(xx,yy,zz,yz,xz,xy) = [-0.028 -0.028  0.037  0.     0.    -0.085]
+
+=== C_ij from central differences (GPa), column = strain index ===
+    order: 1=xx 2=yy 3=zz 4=yz 5=xz 6=xy
+[[80.319  7.149 30.451 -0.088  0.059  3.03 ]
+ [27.568 99.031 30.451 -0.736 -0.206  3.03 ]
+ [32.746 32.569 91.764  0.059  0.029 -3.383]
+ [ 0.     0.     0.    17.917  0.     0.   ]
+ [-0.     0.     0.    -0.    17.859  0.   ]
+ [ 0.     0.     0.     0.     0.    17.594]]
+
+=== Symmetrized C_ij (GPa) ===
+[[80.319 17.358 31.598 -0.044  0.029  1.515]
+ [17.358 99.031 31.51  -0.368 -0.103  1.515]
+ [31.598 31.51  91.764  0.029  0.015 -1.692]
+ [-0.044 -0.368  0.029 17.917  0.     0.   ]
+ [ 0.029 -0.103  0.015  0.    17.859  0.   ]
+ [ 1.515  1.515 -1.692  0.     0.    17.594]]
+
+=== Tetragonal (I4_1/amd, 4/mmm) independent elastic constants (GPa) ===
+  C11 =    89.68
+  C33 =    91.76
+  C12 =    17.36
+  C13 =    31.55
+  C44 =    17.89
+  C66 =    17.59
+
+=== Polycrystalline averages (Voigt / Reuss / Hill) (GPa) ===
+  Bulk K:   V=  48.01  R=  47.29  H=  47.65
+  Shear G:  V=  23.38  R=  21.32  H=  22.35
+  Young E (Hill) =   57.99 GPa,   Poisson ν (Hill) = 0.297
+
+Born stability checks: C11>|C12|:True  2C13^2<C33(C11+C12):True  C44>0:True  C66>0:True

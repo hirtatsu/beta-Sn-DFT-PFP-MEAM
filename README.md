@@ -39,7 +39,12 @@ Archived at Zenodo — this version (v1.0.0, as reviewed): [doi:10.5281/zenodo.2
 ## What's included
 
 - **`elastic/`** — full elastic constant tensor calculations
-  - `data/intel_results/` — DFT/PBE Cᵢⱼ run with all 6 Voigt strain trajectories
+  - `data/dft_runs/` — DFT/PBE OpenMX runs behind Table 2: lattice optimization
+    (`beta_Sn_opt`, OptC5) and ±0.5% strains along all 6 Voigt modes with atomic
+    relaxation (BFGS, MD.Opt.criterion = 1.0e-4 Hartree/Bohr) and analytic stress.
+    `calc_elastic.py` rebuilds the Cᵢⱼ table from the logs; its output is kept as
+    `table2_reconstruction.txt`. Inputs are verbatim as run except that the
+    machine-specific `DATA.PATH` line is normalized to `./DFT_DATA`
   - `data/ko2018_meam/` — MEAM (Ko 2018) reference + per-component error
   - `data/cij_*.csv` — consolidated Cᵢⱼ table and MAPE ranking vs experiment
   - `scripts/elastic_betasn.py` — reference implementation of the

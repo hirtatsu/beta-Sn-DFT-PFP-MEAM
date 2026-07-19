@@ -23,7 +23,7 @@ OUTDIR = os.path.join(ROOT, 'openmx_inputs_dft')
 os.makedirs(RESDIR, exist_ok=True)
 os.makedirs(OUTDIR, exist_ok=True)
 
-# DFT/PBE-optimized lattice from OpenMX elastic paper (intel_results2)
+# DFT/PBE-optimized lattice (elastic/data/dft_runs/beta_Sn_opt)
 DFT_LATTICE = {'a': 5.970, 'c': 3.218}
 
 SLABS = [('100', 12), ('001', 8), ('110', 8), ('101', 12)]
@@ -135,7 +135,7 @@ def main():
 
     manifest = {
         'bulk': {'a': DFT_LATTICE['a'], 'c': DFT_LATTICE['c'],
-                 'n_atoms': 4, 'source': 'OpenMX/PBE elastic paper intel_results2'},
+                 'n_atoms': 4, 'source': 'OpenMX/PBE lattice optimization (elastic/data/dft_runs/beta_Sn_opt)'},
         'slabs': [],
     }
 

@@ -92,45 +92,45 @@ TSNAN=       0   Average SNAN=   0.00000
 <truncation> CpyCell= 3 ct_AN=   4 FNAN SNAN  64   0
 <Check_System> The system is bulk.
 lattice vectors (bohr)
-A  = 11.223158235210,  0.028057895588,  0.000000000000
-B  =  0.028057895588, 11.223158235210,  0.000000000000
-C  =  0.000000000000,  0.000000000000,  6.121238216725
+A  = 11.281295655248,  0.000000000000,  0.000000000000
+B  =  0.000000000000, 11.281295655248,  0.000000000000
+C  =  0.000000000000,  0.000000000000,  6.112341575743
 reciprocal lattice vectors (bohr^-1)
-RA =  0.559844603957, -0.001399611510,  0.000000000000
-RB = -0.001399611510,  0.559844603957,  0.000000000000
-RC =  0.000000000000,  0.000000000000,  1.026456590108
+RA =  0.556956000374,  0.000000000000,  0.000000000000
+RB =  0.000000000000,  0.556956000374,  0.000000000000
+RC =  0.000000000000,  0.000000000000,  1.027950619140
 Grid_Origin  0.000000000000  0.000000000000  0.000000000000
-Cell_Volume =    771.021944298852 (Bohr^3)
-GridVol     =      0.011014599204 (Bohr^3)
+Cell_Volume =    777.903236248648 (Bohr^3)
+GridVol     =      0.011112903375 (Bohr^3)
 Grid_Origin  0.000000000000  0.000000000000  0.000000000000
-Cell_Volume =    771.021944298852 (Bohr^3)
-GridVol     =      0.011014599204 (Bohr^3)
+Cell_Volume =    777.903236248648 (Bohr^3)
+GridVol     =      0.011112903375 (Bohr^3)
 <UCell_Box> Info. of cutoff energy and num. of grids
 lattice vectors (bohr)
-A  = 11.223158235210,  0.028057895588,  0.000000000000
-B  =  0.028057895588, 11.223158235210,  0.000000000000
-C  =  0.000000000000,  0.000000000000,  6.121238216725
+A  = 11.281295655248,  0.000000000000,  0.000000000000
+B  =  0.000000000000, 11.281295655248,  0.000000000000
+C  =  0.000000000000,  0.000000000000,  6.112341575743
 reciprocal lattice vectors (bohr^-1)
-RA =  0.559844603957, -0.001399611510,  0.000000000000
-RB = -0.001399611510,  0.559844603957,  0.000000000000
-RC =  0.000000000000,  0.000000000000,  1.026456590108
+RA =  0.556956000374,  0.000000000000,  0.000000000000
+RB =  0.000000000000,  0.556956000374,  0.000000000000
+RC =  0.000000000000,  0.000000000000,  1.027950619140
 Required cutoff energy (Ryd) for 3D-grids = 200.0000
-    Used cutoff energy (Ryd) for 3D-grids = 195.8925, 195.8925, 206.5082
+    Used cutoff energy (Ryd) for 3D-grids = 193.8750, 193.8750, 207.1098
 Num. of grids of a-, b-, and c-axes = 50, 50, 28
 Grid_Origin  0.000000000000  0.000000000000  0.000000000000
-Cell_Volume =    771.021944298852 (Bohr^3)
-GridVol     =      0.011014599204 (Bohr^3)
+Cell_Volume =    777.903236248648 (Bohr^3)
+GridVol     =      0.011112903375 (Bohr^3)
 Cell vectors (bohr) of the grid cell (gtv)
-  gtv_a =  0.224463164704,  0.000561157912,  0.000000000000
-  gtv_b =  0.000561157912,  0.224463164704,  0.000000000000
-  gtv_c =  0.000000000000,  0.000000000000,  0.218615650597
-  |gtv_a| =  0.224463866150
-  |gtv_b| =  0.224463866150
-  |gtv_c| =  0.218615650597
-Num. of grids overlapping with atom    1 = 130487
-Num. of grids overlapping with atom    2 = 130487
-Num. of grids overlapping with atom    3 = 130487
-Num. of grids overlapping with atom    4 = 130487
+  gtv_a =  0.225625913105,  0.000000000000,  0.000000000000
+  gtv_b =  0.000000000000,  0.225625913105,  0.000000000000
+  gtv_c =  0.000000000000,  0.000000000000,  0.218297913419
+  |gtv_a| =  0.225625913105
+  |gtv_b| =  0.225625913105
+  |gtv_c| =  0.218297913419
+Num. of grids overlapping with atom    1 = 129241
+Num. of grids overlapping with atom    2 = 129241
+Num. of grids overlapping with atom    3 = 129241
+Num. of grids overlapping with atom    4 = 129241
 
 *******************************************************
              SCF calculation at MD = 1                
@@ -145,8 +145,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.746278
-<Band_DFT>  DM, time=1.940533
+<Band_DFT>  Eigen, time=0.754076
+<Band_DFT>  DM, time=2.041555
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -155,7 +155,7 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.100000000000
-<DFT>  Uele   =  -41.318195472259  dUele     =   1.000000000000
+<DFT>  Uele   =  -41.298252140836  dUele     =   1.000000000000
 <DFT>  NormRD =    1.000000000000  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 2 *******************
@@ -165,8 +165,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.741559
-<Band_DFT>  DM, time=1.757228
+<Band_DFT>  Eigen, time=0.739690
+<Band_DFT>  DM, time=2.038409
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -174,9 +174,9 @@ Num. of grids overlapping with atom    4 = 130487
  Sum of MulP: up   =    28.00000 down          =    28.00000
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
-<DFT>  Mixing_weight= 0.126948047168
-<DFT>  Uele   =  -41.318195472259  dUele     =   0.000000000000
-<DFT>  NormRD =    0.460734397647  Criterion =   0.000000100000
+<DFT>  Mixing_weight= 0.125930343282
+<DFT>  Uele   =  -41.298252140836  dUele     =   0.000000000000
+<DFT>  NormRD =    0.453773301134  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 3 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -185,8 +185,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.746412
-<Band_DFT>  DM, time=2.045256
+<Band_DFT>  Eigen, time=0.738746
+<Band_DFT>  DM, time=1.902591
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -195,8 +195,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.400000000000
-<DFT>  Uele   =  -41.412916417564  dUele     =   0.094720945305
-<DFT>  NormRD =    0.413483145778  Criterion =   0.000000100000
+<DFT>  Uele   =  -41.392358183312  dUele     =   0.094106042476
+<DFT>  NormRD =    0.407575021755  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 4 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -205,8 +205,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.741367
-<Band_DFT>  DM, time=1.681337
+<Band_DFT>  Eigen, time=0.790192
+<Band_DFT>  DM, time=1.998261
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -215,8 +215,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.400000000000
-<DFT>  Uele   =  -41.678718759611  dUele     =   0.265802342047
-<DFT>  NormRD =    0.282965531320  Criterion =   0.000000100000
+<DFT>  Uele   =  -41.658868512916  dUele     =   0.266510329604
+<DFT>  NormRD =    0.278819366851  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 5 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -225,8 +225,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.792829
-<Band_DFT>  DM, time=1.997310
+<Band_DFT>  Eigen, time=0.802681
+<Band_DFT>  DM, time=1.999889
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -235,8 +235,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -41.853491344899  dUele     =   0.174772585288
-<DFT>  NormRD =    0.204965409324  Criterion =   0.000000100000
+<DFT>  Uele   =  -41.834208896108  dUele     =   0.175340383192
+<DFT>  NormRD =    0.201923043854  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 6 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -245,8 +245,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.744815
-<Band_DFT>  DM, time=1.405811
+<Band_DFT>  Eigen, time=0.805268
+<Band_DFT>  DM, time=1.736156
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -255,8 +255,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.218144055940  dUele     =   0.364652711040
-<DFT>  NormRD =    0.007768755437  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.199294302715  dUele     =   0.365085406607
+<DFT>  NormRD =    0.008043837206  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 7 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -265,8 +265,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.522195
-<Band_DFT>  DM, time=1.399895
+<Band_DFT>  Eigen, time=0.743773
+<Band_DFT>  DM, time=1.915521
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -275,8 +275,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.217124367284  dUele     =   0.001019688656
-<DFT>  NormRD =    0.002105528950  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.198270605049  dUele     =   0.001023697666
+<DFT>  NormRD =    0.002584923129  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 8 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -285,8 +285,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.743307
-<Band_DFT>  DM, time=1.738306
+<Band_DFT>  Eigen, time=0.795191
+<Band_DFT>  DM, time=1.551259
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -295,8 +295,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.221607047280  dUele     =   0.004482679996
-<DFT>  NormRD =    0.000888929401  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.204369534772  dUele     =   0.006098929723
+<DFT>  NormRD =    0.000864945535  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF= 9 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -305,8 +305,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.747924
-<Band_DFT>  DM, time=1.883017
+<Band_DFT>  Eigen, time=0.472801
+<Band_DFT>  DM, time=1.124746
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -315,8 +315,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.220002408532  dUele     =   0.001604638748
-<DFT>  NormRD =    0.000032313869  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.202803526741  dUele     =   0.001566008031
+<DFT>  NormRD =    0.000013320311  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF=10 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -325,8 +325,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.790901
-<Band_DFT>  DM, time=1.904171
+<Band_DFT>  Eigen, time=0.675485
+<Band_DFT>  DM, time=1.710789
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -335,8 +335,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.219971328129  dUele     =   0.000031080403
-<DFT>  NormRD =    0.000018394264  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.202817993415  dUele     =   0.000014466674
+<DFT>  NormRD =    0.000006458938  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF=11 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -345,8 +345,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.742298
-<Band_DFT>  DM, time=2.035296
+<Band_DFT>  Eigen, time=0.792742
+<Band_DFT>  DM, time=1.984097
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -355,8 +355,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.219941474898  dUele     =   0.000029853230
-<DFT>  NormRD =    0.000004069019  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.202806846454  dUele     =   0.000011146961
+<DFT>  NormRD =    0.000001319018  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF=12 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -365,8 +365,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.748108
-<Band_DFT>  DM, time=2.048276
+<Band_DFT>  Eigen, time=0.735971
+<Band_DFT>  DM, time=1.908725
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -375,8 +375,8 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.219933099437  dUele     =   0.000008375462
-<DFT>  NormRD =    0.000001721868  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.202804507502  dUele     =   0.000002338952
+<DFT>  NormRD =    0.000000963130  Criterion =   0.000000100000
 
 ******************* MD= 1  SCF=13 *******************
 <Poisson>  Poisson's equation using FFT...
@@ -385,8 +385,8 @@ Num. of grids overlapping with atom    4 = 130487
  KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
  KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
-<Band_DFT>  Eigen, time=0.749560
-<Band_DFT>  DM, time=2.052124
+<Band_DFT>  Eigen, time=0.793986
+<Band_DFT>  DM, time=1.995335
     1   Sn  MulP   7.0000  7.0000 sum  14.0000
     2   Sn  MulP   7.0000  7.0000 sum  14.0000
     3   Sn  MulP   7.0000  7.0000 sum  14.0000
@@ -395,8 +395,28 @@ Num. of grids overlapping with atom    4 = 130487
               total=    56.00000 ideal(neutral)=    56.00000
 <DFT>  Total Spin Moment (muB) =  0.000000000000
 <DFT>  Mixing_weight= 0.040000000000
-<DFT>  Uele   =  -42.219933159495  dUele     =   0.000000060059
-<DFT>  NormRD =    0.000000111231  Criterion =   0.000000100000
+<DFT>  Uele   =  -42.202804622167  dUele     =   0.000000114665
+<DFT>  NormRD =    0.000000140820  Criterion =   0.000000100000
+
+******************* MD= 1  SCF=14 *******************
+<Poisson>  Poisson's equation using FFT...
+<Set_Hamiltonian>  Hamiltonian matrix for VNA+dVH+Vxc...
+<Band>  Solving the eigenvalue problem...
+ KGrids1:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
+ KGrids2:  -0.45833  -0.37500  -0.29167  -0.20833  -0.12500  -0.04167   0.04167   0.12500   0.20833   0.29167   0.37500   0.45833 
+ KGrids3:  -0.47500  -0.42500  -0.37500  -0.32500  -0.27500  -0.22500  -0.17500  -0.12500  -0.07500  -0.02500   0.02500   0.07500   0.12500   0.17500   0.22500   0.27500   0.32500   0.37500   0.42500   0.47500 
+<Band_DFT>  Eigen, time=0.747343
+<Band_DFT>  DM, time=2.047226
+    1   Sn  MulP   7.0000  7.0000 sum  14.0000
+    2   Sn  MulP   7.0000  7.0000 sum  14.0000
+    3   Sn  MulP   7.0000  7.0000 sum  14.0000
+    4   Sn  MulP   7.0000  7.0000 sum  14.0000
+ Sum of MulP: up   =    28.00000 down          =    28.00000
+              total=    56.00000 ideal(neutral)=    56.00000
+<DFT>  Total Spin Moment (muB) =  0.000000000000
+<DFT>  Mixing_weight= 0.040000000000
+<DFT>  Uele   =  -42.202804630869  dUele     =   0.000000008702
+<DFT>  NormRD =    0.000000056443  Criterion =   0.000000100000
 <MD= 1>  Force calculation
   Force calculation #1
   Force calculation #2
@@ -416,36 +436,36 @@ Num. of grids overlapping with atom    4 = 130487
                   Dipole moment (Debye)                 
 *******************************************************
 
- Absolute D      519.64719151
+ Absolute D      520.68829926
 
                       Dx                Dy                Dz
- Total           -361.37465822     -361.37465766      -94.07399663
- Core             400.36854757      400.36854757      326.73151404
- Electron        -761.74320579     -761.74320523     -420.80551067
+ Total           -362.14027051     -362.14026883      -93.94229692
+ Core             401.43891146      401.43891146      326.25664068
+ Electron        -763.57918197     -763.57918029     -420.19893760
  Back ground       -0.00000000       -0.00000000       -0.00000000
 
 *******************************************************
                Stress tensor (Hartree/bohr^3)            
 *******************************************************
 
-      -0.00001283        0.00000282        0.00000000 
-       0.00000282       -0.00001282        0.00000000 
-       0.00000000        0.00000000        0.00000655 
+       0.00000369        0.00000000        0.00000000 
+       0.00000000        0.00000370        0.00000000 
+       0.00000000        0.00000000        0.00001441 
 
 *******************************************************
                 Total Energy (Hartree) at MD = 1        
 *******************************************************
 
-  Uele  =     -42.219933159495
+  Uele  =     -42.202804630869
 
-  Ukin  =     203.441576935704
-  UH0   =   -2707.564134562535
-  UH1   =       0.004975028922
-  Una   =    -149.432896221746
-  Unl   =     -47.908899422216
-  Uxc0  =     -25.239232973781
-  Uxc1  =     -25.239232973781
-  Ucore =    2467.780456908067
+  Ukin  =     203.433077760738
+  UH0   =   -2700.063446922888
+  UH1   =       0.004908250059
+  Una   =    -149.407691086780
+  Unl   =     -47.918061080800
+  Uxc0  =     -25.234663803617
+  Uxc1  =     -25.234663803617
+  Ucore =    2460.263112090272
   Uhub  =       0.000000000000
   Ucs   =       0.000000000000
   Uzs   =       0.000000000000
@@ -453,10 +473,10 @@ Num. of grids overlapping with atom    4 = 130487
   Uef   =       0.000000000000
   UvdW  =       0.000000000000
   Uch   =       0.000000000000
-  Utot  =    -284.157387281364
+  Utot  =    -284.157428596634
 
   UpV   =       0.000000000000
-  Enpy  =    -284.157387281364
+  Enpy  =    -284.157428596634
   Note:
 
   Uele:   band energy
@@ -484,23 +504,23 @@ Num. of grids overlapping with atom    4 = 130487
            Computational times (s) at MD = 1            
 *******************************************************
 
-  DFT in total      =   48.10321
+  DFT in total      =   51.58603
 
-  Set_OLP_Kin       =    0.75118
-  Set_Nonlocal      =    1.46857
-  Set_ProExpn_VNA   =    2.65813
-  Set_Hamiltonian   =    3.16871
-  Poisson           =    0.00436
-  diagonalization   =   34.26599
-  Mixing_DM         =    0.01125
-  Force             =    2.10510
-  Total_Energy      =    0.40791
-  Set_Aden_Grid     =    0.00946
-  Set_Orbitals_Grid =    0.10433
-  Set_Density_Grid  =    1.22442
-  RestartFileDFT    =    0.00206
-  Mulliken_Charge   =    0.00192
-  FFT(2D)_Density   =    0.00520
+  Set_OLP_Kin       =    0.75253
+  Set_Nonlocal      =    1.50000
+  Set_ProExpn_VNA   =    2.65939
+  Set_Hamiltonian   =    3.57708
+  Poisson           =    0.00407
+  diagonalization   =   37.29030
+  Mixing_DM         =    0.01243
+  Force             =    2.04733
+  Total_Energy      =    0.40931
+  Set_Aden_Grid     =    0.04851
+  Set_Orbitals_Grid =    0.10115
+  Set_Density_Grid  =    1.32506
+  RestartFileDFT    =    0.00272
+  Mulliken_Charge   =    0.00231
+  FFT(2D)_Density   =    0.00537
 
 The SCF was achieved at MD=   1
 
@@ -510,14 +530,14 @@ The SCF was achieved at MD=   1
 
 
 The geometry optimization was achieved.
-<Steepest_Descent>  SD_scaling= 1.257377613099
-<Steepest_Descent>  |Maximum force| (Hartree/Bohr) = 0.000000051538
-<Steepest_Descent>  Criterion       (Hartree/Bohr) = 0.001000000000
+<Steepest_Descent>  SD_scaling= 1.257556819244
+<Steepest_Descent>  |Maximum force| (Hartree/Bohr) = 0.000000055632
+<Steepest_Descent>  Criterion       (Hartree/Bohr) = 0.000100000000
 
-  atom=  1, XYZ(ang) Fxyz(a.u.)=   0.0000    0.0000    0.0000    -0.0000    0.0000    0.0000
-  atom=  2, XYZ(ang) Fxyz(a.u.)=   2.9769    2.9769    1.6196    -0.0000    0.0000    0.0000
-  atom=  3, XYZ(ang) Fxyz(a.u.)=   0.0074    2.9695    0.8098     0.0000   -0.0000   -0.0000
-  atom=  4, XYZ(ang) Fxyz(a.u.)=   2.9695    0.0074    2.4294     0.0000   -0.0000   -0.0000
+  atom=  1, XYZ(ang) Fxyz(a.u.)=   0.0000    0.0000    0.0000    -0.0000   -0.0000    0.0000
+  atom=  2, XYZ(ang) Fxyz(a.u.)=   2.9849    2.9849    1.6173    -0.0000    0.0000    0.0000
+  atom=  3, XYZ(ang) Fxyz(a.u.)=   0.0000    2.9849    0.8086     0.0000    0.0000   -0.0000
+  atom=  4, XYZ(ang) Fxyz(a.u.)=   2.9849    0.0000    2.4259     0.0000   -0.0000   -0.0000
 
 outputting data on grids to files...
 
@@ -529,30 +549,30 @@ outputting data on grids to files...
 ***********************************************************
 
                                Min_ID   Min_Time       Max_ID   Max_Time
-   Total Computational Time =     9       50.976          0       50.992
-   readfile                 =     9        2.472          0        2.474
-   truncation               =     6        0.304          2        0.429
-   MD_pac                   =     0        0.000         15        0.000
-   OutData                  =     6        0.000          0        0.013
-   DFT                      =     2       48.072          6       48.196
+   Total Computational Time =     6       54.408          0       54.416
+   readfile                 =     6        2.468          8        2.469
+   truncation               =    13        0.239          3        0.375
+   MD_pac                   =     0        0.000         14        0.000
+   OutData                  =     7        0.000          0        0.007
+   DFT                      =     3       51.560         13       51.697
 
 *** In DFT ***
 
-   Set_OLP_Kin              =    11        0.091          2        1.006
-   Set_Nonlocal             =     2        1.213         11        2.129
-   Set_ProExpn_VNA          =     6        1.072          0        2.658
-   Set_Hamiltonian          =     1        3.169         14        3.169
-   Poisson                  =     9        0.004         14        0.004
-   Diagonalization          =     0       34.266          1       34.266
-   Mixing_DM                =     7        0.011         10        0.011
-   Force                    =     0        2.105          2        2.105
-   Total_Energy             =     2        0.408          0        0.408
-   Set_Aden_Grid            =     0        0.009          6        1.595
-   Set_Orbitals_Grid        =     6        0.000          2        0.125
-   Set_Density_Grid         =     5        1.223          1        1.224
-   RestartFileDFT           =    15        0.002         10        0.003
-   Mulliken_Charge          =    10        0.002         15        0.002
-   FFT(2D)_Density          =     1        0.005         12        0.005
-   Others                   =     2        1.862          5        2.115
+   Set_OLP_Kin              =    15        0.091          2        1.008
+   Set_Nonlocal             =     2        1.244         15        2.161
+   Set_ProExpn_VNA          =    14        1.068          2        2.698
+   Set_Hamiltonian          =     3        3.577         10        3.577
+   Poisson                  =    11        0.004          2        0.004
+   Diagonalization          =     0       37.290          2       37.291
+   Mixing_DM                =     4        0.012          0        0.012
+   Force                    =     4        2.047         12        2.047
+   Total_Energy             =     2        0.409          0        0.409
+   Set_Aden_Grid            =     2        0.010         15        1.639
+   Set_Orbitals_Grid        =     4        0.000          2        0.138
+   Set_Density_Grid         =     5        1.323          0        1.325
+   RestartFileDFT           =     8        0.003         13        0.003
+   Mulliken_Charge          =     6        0.002          4        0.002
+   FFT(2D)_Density          =    14        0.005          9        0.005
+   Others                   =     2        1.790         11        2.064
 
 The calculation was normally finished.
