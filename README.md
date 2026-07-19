@@ -34,7 +34,7 @@ H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
 Modelling and Simulation in Materials Science and Engineering (2026, in review).
 ```
 
-Archived at Zenodo — this version (v1.0.0, as reviewed): [doi:10.5281/zenodo.21357963](https://doi.org/10.5281/zenodo.21357963); all versions: [doi:10.5281/zenodo.21357962](https://doi.org/10.5281/zenodo.21357962).
+Archived at Zenodo — latest version (v1.1.0, elastic production dataset): [doi:10.5281/zenodo.21442294](https://doi.org/10.5281/zenodo.21442294); v1.0.0 (as reviewed): [doi:10.5281/zenodo.21357963](https://doi.org/10.5281/zenodo.21357963); all versions: [doi:10.5281/zenodo.21357962](https://doi.org/10.5281/zenodo.21357962).
 
 ## What's included
 
