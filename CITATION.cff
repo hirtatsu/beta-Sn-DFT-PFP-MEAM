@@ -10,7 +10,7 @@ identifiers:
 version: v1.1.0
 date-released: 2026-07-19
 title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials — data and code"
-message: "Companion archive to Tatsumi et al. (in review at MSMSE, 2026). Please cite the paper if you use this material."
+message: "Companion archive to Tatsumi et al., Modell. Simul. Mater. Sci. Eng. (2026), doi:10.1088/1361-651X/ae9568. Please cite the paper if you use this material."
 type: software
 authors:
   - family-names: Tatsumi
@@ -28,7 +28,7 @@ authors:
     given-names: Hiroshi
     affiliation: "Joining and Welding Research Institute, The University of Osaka"
 abstract: >-
-  Companion data and code repository for "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials" (in review). All inputs, outputs, and analysis
+  Companion data and code repository for "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials" (Modelling and Simulation in Materials Science and Engineering, 2026, doi:10.1088/1361-651X/ae9568). All inputs, outputs, and analysis
   scripts required to reproduce the elastic constant tensor and surface
   energies of β-Sn (I4₁/amd) for eight computational methods: DFT/PBE
   (OpenMX 3.9.9), four PFP modes (PBE, PBE+D3, r²SCAN, r²SCAN+D3) on the
@@ -50,4 +50,5 @@ preferred-citation:
       given-names: Hiroshi
   journal: "Modelling and Simulation in Materials Science and Engineering"
   year: 2026
-  notes: "Submitted (in review)"
+  doi: 10.1088/1361-651X/ae9568
+  notes: "Advance online publication (5 August 2026)"

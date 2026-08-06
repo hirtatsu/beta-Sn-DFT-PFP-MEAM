@@ -7,8 +7,8 @@ Companion data and code repository for:
 
 > H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
 > *Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials*.
-> Submitted to *Modelling and Simulation in Materials Science and Engineering*
-> (2026, in review).
+> *Modelling and Simulation in Materials Science and Engineering* (2026),
+> advance online publication. [doi:10.1088/1361-651X/ae9568](https://doi.org/10.1088/1361-651X/ae9568)
 
 This repository contains every input, output, and analysis script required to
 reproduce the elastic constants, surface energies, and Wulff shapes presented
@@ -31,7 +31,8 @@ I4₁/amd):
 ```
 H. Tatsumi, A. M. Ito, A. Takayama, H. Nishikawa.
 "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials".
-Modelling and Simulation in Materials Science and Engineering (2026, in review).
+Modelling and Simulation in Materials Science and Engineering (2026), advance online publication.
+https://doi.org/10.1088/1361-651X/ae9568
 ```
 
 Archived at Zenodo — latest version (v1.1.0, elastic production dataset): [doi:10.5281/zenodo.21442294](https://doi.org/10.5281/zenodo.21442294); v1.0.0 (as reviewed): [doi:10.5281/zenodo.21357963](https://doi.org/10.5281/zenodo.21357963); all versions: [doi:10.5281/zenodo.21357962](https://doi.org/10.5281/zenodo.21357962).

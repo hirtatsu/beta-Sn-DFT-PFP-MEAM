@@ -2,7 +2,7 @@
 elastic_betasn.py
 
 β-Sn (I4_1/amd, 4-atom cell) elastic constant tensor via PFP v8.
-Tatsumi et al. (MSMSE 2026, in review) Table 2.
+Tatsumi et al. (MSMSE 2026, doi:10.1088/1361-651X/ae9568) Table 2.
 
 Method (per manuscript):
   - Experimental lattice (ICSD 40037): a=5.831 Å, c=3.182 Å
