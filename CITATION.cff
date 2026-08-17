@@ -10,7 +10,7 @@ identifiers:
 version: v1.1.0
 date-released: 2026-07-19
 title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials — data and code"
-message: "Companion archive to Tatsumi et al., Modell. Simul. Mater. Sci. Eng. (2026), doi:10.1088/1361-651X/ae9568. Please cite the paper if you use this material."
+message: "Companion archive to Tatsumi et al., Modell. Simul. Mater. Sci. Eng. 34 (2026) 065007, doi:10.1088/1361-651X/ae9568. Please cite the paper if you use this material."
 type: software
 authors:
   - family-names: Tatsumi
@@ -50,5 +50,6 @@ preferred-citation:
       given-names: Hiroshi
   journal: "Modelling and Simulation in Materials Science and Engineering"
   year: 2026
+  volume: 34
   doi: 10.1088/1361-651X/ae9568
-  notes: "Advance online publication (5 August 2026)"
+  notes: "Article 065007. Published 17 August 2026."
