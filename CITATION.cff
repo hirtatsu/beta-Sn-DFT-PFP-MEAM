@@ -2,13 +2,16 @@ cff-version: 1.2.0
 doi: 10.5281/zenodo.21357962
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.21977629
+    description: "Version v1.1.1 (as published)"
+  - type: doi
     value: 10.5281/zenodo.21442294
     description: "Version v1.1.0 (elastic production dataset)"
   - type: doi
     value: 10.5281/zenodo.21357963
     description: "Version v1.0.0 (as reviewed)"
-version: v1.1.0
-date-released: 2026-07-19
+version: v1.1.1
+date-released: 2026-08-17
 title: "Comparison of Elastic Constants and Surface Energies of β-Sn from Density Functional Theory, Universal Machine Learning Potential, and Empirical Potentials — data and code"
 message: "Companion archive to Tatsumi et al., Modell. Simul. Mater. Sci. Eng. 34 (2026) 065007, doi:10.1088/1361-651X/ae9568. Please cite the paper if you use this material."
 type: software
